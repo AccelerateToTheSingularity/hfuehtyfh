@@ -455,7 +455,7 @@ def main():
                 # Post comment
                 comment_text = f"**Post TLDR:** {tldr_text}"
                 comment = submission.reply(comment_text)
-                comment.mod.distinguish(sticky=True)
+                comment.mod.distinguish(sticky=False)
                 
                 print(f"     ✅ Posted TLDR ({len(tldr_text.split())} words, {token_info['total_tokens']} tokens)")
                 
