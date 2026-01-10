@@ -546,7 +546,7 @@ def main():
                     # Create new pinned comment
                     comment_text = f"**💬 Discussion Summary ({next_milestone}+ comments):** {summary_text}"
                     comment = submission.reply(comment_text)
-                    comment.mod.distinguish(sticky=True)
+                    comment.mod.distinguish(sticky=False)
                     print(f"     ✅ Created new summary comment ({token_info['total_tokens']} tokens)")
                 
                 comment_summaries[post_id] = next_milestone
