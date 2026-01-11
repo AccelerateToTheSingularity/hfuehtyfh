@@ -218,11 +218,19 @@ def check_for_summons(
                 
                 # Update tracking
                 summon_responses.add(comment.id)
-                # Track reply count per user
+                # Track reply count per user (reset if cooldown window has passed)
+                now = datetime.utcnow().timestamp()
                 if author_name not in recent_user_replies:
-                    recent_user_replies[author_name] = {"count": 1, "first_reply_time": datetime.utcnow().timestamp()}
+                    recent_user_replies[author_name] = {"count": 1, "first_reply_time": now}
                 else:
-                    recent_user_replies[author_name]["count"] = recent_user_replies[author_name].get("count", 0) + 1
+                    # Check if the cooldown window has passed - if so, reset the tracking
+                    hours_since = (now - recent_user_replies[author_name].get("first_reply_time", 0)) / 3600
+                    if hours_since >= SAME_USER_COOLDOWN_HOURS:
+                        # Cooldown expired, start fresh window
+                        recent_user_replies[author_name] = {"count": 1, "first_reply_time": now}
+                    else:
+                        # Still within window, increment count
+                        recent_user_replies[author_name]["count"] = recent_user_replies[author_name].get("count", 0) + 1
                 summons_handled += 1
                 total_tokens += token_info["total_tokens"]
                 total_cost += token_info["cost"]
@@ -301,11 +309,19 @@ def check_for_summons(
                     
                     # Update tracking
                     summon_responses.add(post_id)
-                    # Track reply count per user
+                    # Track reply count per user (reset if cooldown window has passed)
+                    now = datetime.utcnow().timestamp()
                     if author_name not in recent_user_replies:
-                        recent_user_replies[author_name] = {"count": 1, "first_reply_time": datetime.utcnow().timestamp()}
+                        recent_user_replies[author_name] = {"count": 1, "first_reply_time": now}
                     else:
-                        recent_user_replies[author_name]["count"] = recent_user_replies[author_name].get("count", 0) + 1
+                        # Check if the cooldown window has passed - if so, reset the tracking
+                        hours_since = (now - recent_user_replies[author_name].get("first_reply_time", 0)) / 3600
+                        if hours_since >= SAME_USER_COOLDOWN_HOURS:
+                            # Cooldown expired, start fresh window
+                            recent_user_replies[author_name] = {"count": 1, "first_reply_time": now}
+                        else:
+                            # Still within window, increment count
+                            recent_user_replies[author_name]["count"] = recent_user_replies[author_name].get("count", 0) + 1
                     summons_handled += 1
                     total_tokens += token_info["total_tokens"]
                     total_cost += token_info["cost"]
@@ -317,6 +333,14 @@ def check_for_summons(
         except Exception as e:
             print(f"  ❌ Error scanning posts for summons: {e}")
     
+# Clean up old user reply tracking (remove entries older than cooldown window)
+    now = datetime.utcnow().timestamp()
+    cutoff_seconds = SAME_USER_COOLDOWN_HOURS * 3600
+    recent_user_replies = {
+        user: data for user, data in recent_user_replies.items()
+        if (now - data.get("first_reply_time", 0)) < cutoff_seconds
+    }
+
     # Update state
     state["summon_responses"] = list(summon_responses)[-2000:]  # Keep last 2000
     state["recent_user_replies"] = recent_user_replies

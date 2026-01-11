@@ -295,11 +295,11 @@ def generate_comment_summary(comments: list, gemini_model) -> tuple[str, dict]:
 
 
 def find_bot_comment(submission, username: str):
-    """Find our existing stickied comment on a post, if any."""
+    """Find our existing distinguished comment on a post, if any."""
     submission.comments.replace_more(limit=0)
     for comment in submission.comments:
         if hasattr(comment, 'author') and comment.author:
-            if comment.author.name == username and comment.stickied:
+            if comment.author.name == username and comment.distinguished:
                 return comment
     return None
 
