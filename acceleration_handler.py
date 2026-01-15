@@ -25,6 +25,7 @@ from config import (
 def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> tuple[int, int]:
     """
     Calculate karma from pro-AI subreddits and total karma from scanned items.
+    Only counts posts/comments from the last year.
     
     Args:
         redditor: PRAW Redditor object
@@ -42,11 +43,18 @@ def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> tuple[in
     items_scanned = 0
     pro_ai_subs_lower = {sub.lower() for sub in ACCELERATION_PRO_AI_SUBS}
     
+    # Only count items from last year
+    one_year_ago = datetime.utcnow().timestamp() - (365 * 24 * 3600)
+    
     try:
         # Scan comments
         for comment in redditor.comments.new(limit=scan_limit):
             if items_scanned >= scan_limit:
                 break
+            
+            # Skip if older than 1 year
+            if comment.created_utc < one_year_ago:
+                break  # Posts are chronological, so we can stop here
             
             sub_name = comment.subreddit.display_name.lower()
             total_karma += comment.score
@@ -59,6 +67,10 @@ def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> tuple[in
         for submission in redditor.submissions.new(limit=scan_limit):
             if items_scanned >= scan_limit:
                 break
+            
+            # Skip if older than 1 year
+            if submission.created_utc < one_year_ago:
+                break  # Posts are chronological, so we can stop here
             
             sub_name = submission.subreddit.display_name.lower()
             total_karma += submission.score

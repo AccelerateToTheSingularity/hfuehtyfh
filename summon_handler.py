@@ -173,6 +173,14 @@ def check_for_summons(
             if comment.author and comment.author.name == bot_username:
                 continue
             
+            # Skip if this is a reply to our comment (reply_handler will handle those)
+            try:
+                parent = comment.parent()
+                if hasattr(parent, 'author') and parent.author and parent.author.name == bot_username:
+                    continue
+            except:
+                pass  # If we can't get parent, proceed normally
+            
             # Skip deleted
             if not comment.body or comment.body == '[deleted]':
                 continue
