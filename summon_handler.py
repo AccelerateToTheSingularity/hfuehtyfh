@@ -21,7 +21,7 @@ from config import (
 from persona import generate_conversational_response, generate_post_summon_response
 from acceleration_handler import (
     handle_acceleration_command,
-    background_scan_commenter,
+    queue_background_scan,
 )
 
 
@@ -179,9 +179,9 @@ def check_for_summons(
             
             author_name = comment.author.name if comment.author else None
             
-            # Background scan all commenters for negative karma (non-blocking)
-            if ACCELERATION_ENABLED and reddit and author_name and not is_likely_bot(author_name):
-                state = background_scan_commenter(author_name, subreddit, reddit, state, dry_run)
+            # Queue commenter for background scan (processed 1 per cycle)
+            if ACCELERATION_ENABLED and author_name and not is_likely_bot(author_name):
+                state = queue_background_scan(author_name, state)
             
             # Check if this is a summon
             if not is_summon(comment.body):

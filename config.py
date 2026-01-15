@@ -98,9 +98,11 @@ ACCELERATION_PRO_AI_SUBS = [
 ]
 
 # Scanning limits
-ACCELERATION_SCAN_LIMIT = 300               # Max posts/comments to scan per user
+ACCELERATION_SCAN_LIMIT = 1000              # Max posts/comments to scan for opted-in users
+ACCELERATION_BACKGROUND_SCAN_LIMIT = 500    # Max to scan for background checks (non-opted-in)
 ACCELERATION_REFRESH_DAYS = 7               # Min days between flair recalculations (opted-in)
 ACCELERATION_BACKGROUND_REFRESH_DAYS = 30   # Min days between background scans (non-opted-in)
+ACCELERATION_MAX_SCANS_PER_RUN = 1          # Max users to scan per bot run cycle (rate limiting)
 
 # Tier thresholds (percentages of high score)
 # Format: (min_percentage, tier_name)

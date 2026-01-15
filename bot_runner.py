@@ -36,7 +36,7 @@ from reply_handler import check_inbox_replies
 from summon_handler import check_for_summons
 from ban_handler import check_and_ban_negative_karma_users
 from crosspost_handler import check_and_crosspost
-from acceleration_handler import refresh_opted_in_users
+from acceleration_handler import refresh_opted_in_users, process_scan_queue
 
 
 def load_state(state_file: str = "data/bot_state.json") -> dict:
@@ -712,6 +712,16 @@ def main():
                 print(f"  🔄 Refreshed {accel_refreshed} acceleration flair(s)")
         except Exception as e:
             print(f"  ❌ Error in acceleration refresh: {e}")
+    
+    # Phase 9: Process background scan queue (1 user per cycle to avoid API limits)
+    queue_scanned = 0
+    if ACCELERATION_ENABLED:
+        try:
+            queue_scanned, state = process_scan_queue(
+                subreddit, reddit, state, args.dry_run
+            )
+        except Exception as e:
+            print(f"  ❌ Error in queue processing: {e}")
     
     # Update state
     state["last_check"] = datetime.utcnow().timestamp()

@@ -10,8 +10,10 @@ from config import (
     ACCELERATION_ENABLED,
     ACCELERATION_PRO_AI_SUBS,
     ACCELERATION_SCAN_LIMIT,
+    ACCELERATION_BACKGROUND_SCAN_LIMIT,
     ACCELERATION_REFRESH_DAYS,
     ACCELERATION_BACKGROUND_REFRESH_DAYS,
+    ACCELERATION_MAX_SCANS_PER_RUN,
     ACCELERATION_TIERS,
     ACCELERATION_ZERO_TIER,
     ACCELERATION_MODMAIL_THRESHOLD,
@@ -20,25 +22,29 @@ from config import (
 )
 
 
-def calculate_pro_ai_karma(redditor, reddit) -> int:
+def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> int:
     """
     Calculate total karma from pro-AI subreddits.
     
     Args:
         redditor: PRAW Redditor object
         reddit: PRAW Reddit instance (for accessing subreddits)
+        scan_limit: Max items to scan (defaults to ACCELERATION_SCAN_LIMIT)
     
     Returns:
         Net karma score from pro-AI subreddits
     """
+    if scan_limit is None:
+        scan_limit = ACCELERATION_SCAN_LIMIT
+    
     total_karma = 0
     items_scanned = 0
     pro_ai_subs_lower = {sub.lower() for sub in ACCELERATION_PRO_AI_SUBS}
     
     try:
         # Scan comments
-        for comment in redditor.comments.new(limit=ACCELERATION_SCAN_LIMIT):
-            if items_scanned >= ACCELERATION_SCAN_LIMIT:
+        for comment in redditor.comments.new(limit=scan_limit):
+            if items_scanned >= scan_limit:
                 break
             
             sub_name = comment.subreddit.display_name.lower()
@@ -48,8 +54,8 @@ def calculate_pro_ai_karma(redditor, reddit) -> int:
         
         # Scan submissions (posts)
         items_scanned = 0
-        for submission in redditor.submissions.new(limit=ACCELERATION_SCAN_LIMIT):
-            if items_scanned >= ACCELERATION_SCAN_LIMIT:
+        for submission in redditor.submissions.new(limit=scan_limit):
+            if items_scanned >= scan_limit:
                 break
             
             sub_name = submission.subreddit.display_name.lower()
@@ -406,22 +412,13 @@ def refresh_opted_in_users(
     return users_updated, state
 
 
-def background_scan_commenter(
-    username: str,
-    subreddit,
-    reddit,
-    state: dict,
-    dry_run: bool = False
-) -> dict:
+def queue_background_scan(username: str, state: dict) -> dict:
     """
-    Background scan a commenter for negative karma (doesn't update their flair).
+    Add a user to the background scan queue (doesn't scan immediately).
     
     Args:
-        username: Reddit username to scan
-        subreddit: PRAW Subreddit object
-        reddit: PRAW Reddit instance
+        username: Reddit username to queue for scanning
         state: Current bot state dict
-        dry_run: If True, don't send modmail
     
     Returns:
         Updated state
@@ -435,7 +432,8 @@ def background_scan_commenter(
             "high_score": 100,
             "opted_in_users": {},
             "alerted_users": [],
-            "scanned_users": {}
+            "scanned_users": {},
+            "scan_queue": []
         }
     
     accel_state = state["acceleration"]
@@ -444,47 +442,102 @@ def background_scan_commenter(
     if username in accel_state.get("opted_in_users", {}):
         return state
     
-    # Check if due for background scan
-    scanned = accel_state.setdefault("scanned_users", {})
+    # Check if recently scanned
+    scanned = accel_state.get("scanned_users", {})
     now = datetime.utcnow().timestamp()
     refresh_threshold = ACCELERATION_BACKGROUND_REFRESH_DAYS * 24 * 3600
     
     last_scan = scanned.get(username, {}).get("last_scanned", 0)
     if (now - last_scan) < refresh_threshold:
-        return state  # Not due for scan yet
+        return state  # Recently scanned, skip
     
-    try:
-        redditor = reddit.redditor(username)
-        score = calculate_pro_ai_karma(redditor, reddit)
-        
-        # Record the scan
-        scanned[username] = {
-            "last_scanned": now,
-            "score": score
-        }
-        
-        # Check for negative karma alert
-        if score < ACCELERATION_MODMAIL_THRESHOLD:
-            if username not in accel_state.get("alerted_users", []):
-                if not dry_run:
-                    alert_mods_negative_karma(subreddit, username, score)
-                accel_state.setdefault("alerted_users", []).append(username)
-                print(f"    ⚠️ Background scan: u/{username} has {score} pro-AI karma")
-        
-        # Update high score if positive
-        if score > accel_state.get("high_score", 0):
-            accel_state["high_score"] = score
-        
-    except Exception as e:
-        print(f"    ⚠️ Error background scanning u/{username}: {e}")
-    
-    # Keep alerted_users list manageable
-    accel_state["alerted_users"] = accel_state.get("alerted_users", [])[-500:]
-    # Keep scanned_users manageable (last 2000)
-    if len(scanned) > 2000:
-        sorted_users = sorted(scanned.items(), key=lambda x: x[1].get("last_scanned", 0))
-        scanned = dict(sorted_users[-2000:])
-        accel_state["scanned_users"] = scanned
+    # Add to queue if not already queued
+    queue = accel_state.setdefault("scan_queue", [])
+    if username not in queue:
+        queue.append(username)
+        # Keep queue manageable (max 500 pending)
+        if len(queue) > 500:
+            queue = queue[-500:]
+            accel_state["scan_queue"] = queue
     
     state["acceleration"] = accel_state
     return state
+
+
+def process_scan_queue(
+    subreddit,
+    reddit,
+    state: dict,
+    dry_run: bool = False
+) -> tuple[int, dict]:
+    """
+    Process users from the background scan queue (rate-limited).
+    Only processes ACCELERATION_MAX_SCANS_PER_RUN users per cycle.
+    
+    Args:
+        subreddit: PRAW Subreddit object
+        reddit: PRAW Reddit instance
+        state: Current bot state dict
+        dry_run: If True, don't send modmail
+    
+    Returns:
+        Tuple of (users_scanned, updated_state)
+    """
+    if not ACCELERATION_ENABLED:
+        return 0, state
+    
+    accel_state = state.get("acceleration", {})
+    queue = accel_state.get("scan_queue", [])
+    
+    if not queue:
+        return 0, state
+    
+    scanned_count = 0
+    now = datetime.utcnow().timestamp()
+    scanned_users = accel_state.setdefault("scanned_users", {})
+    
+    while queue and scanned_count < ACCELERATION_MAX_SCANS_PER_RUN:
+        username = queue.pop(0)  # Take from front of queue
+        
+        # Skip if already opted-in
+        if username in accel_state.get("opted_in_users", {}):
+            continue
+        
+        try:
+            redditor = reddit.redditor(username)
+            score = calculate_pro_ai_karma(redditor, reddit, scan_limit=ACCELERATION_BACKGROUND_SCAN_LIMIT)
+            
+            # Record the scan
+            scanned_users[username] = {
+                "last_scanned": now,
+                "score": score
+            }
+            
+            # Check for negative karma alert
+            if score < ACCELERATION_MODMAIL_THRESHOLD:
+                if username not in accel_state.get("alerted_users", []):
+                    if not dry_run:
+                        alert_mods_negative_karma(subreddit, username, score)
+                    accel_state.setdefault("alerted_users", []).append(username)
+                    print(f"    ⚠️ Background scan: u/{username} has {score} pro-AI karma")
+            
+            # Update high score if positive
+            if score > accel_state.get("high_score", 0):
+                accel_state["high_score"] = score
+            
+            scanned_count += 1
+            print(f"    📊 Scanned u/{username}: {score} karma (queue: {len(queue)} remaining)")
+            
+        except Exception as e:
+            print(f"    ⚠️ Error scanning u/{username}: {e}")
+    
+    # Cleanup
+    accel_state["alerted_users"] = accel_state.get("alerted_users", [])[-500:]
+    if len(scanned_users) > 2000:
+        sorted_users = sorted(scanned_users.items(), key=lambda x: x[1].get("last_scanned", 0))
+        scanned_users = dict(sorted_users[-2000:])
+        accel_state["scanned_users"] = scanned_users
+    
+    accel_state["scan_queue"] = queue
+    state["acceleration"] = accel_state
+    return scanned_count, state
