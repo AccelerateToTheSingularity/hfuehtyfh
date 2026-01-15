@@ -15,8 +15,10 @@ from config import (
     SAME_USER_COOLDOWN_HOURS,
     SAME_USER_REPLIES_BEFORE_COOLDOWN,
     MOD_CACHE_REFRESH_DAYS,
+    ACCELERATION_ENABLED,
 )
 from persona import generate_conversational_response
+from acceleration_handler import handle_acceleration_command
 
 
 def get_cached_moderators(state: dict, subreddit) -> set:
@@ -198,8 +200,22 @@ def check_inbox_replies(
             try:
                 # Get the submission for context
                 submission = item.submission
+                subreddit = item.subreddit
                 
-                # Generate response
+                # Check if this is an acceleration command first
+                if ACCELERATION_ENABLED:
+                    accel_response, state = handle_acceleration_command(
+                        item, subreddit, reddit, gemini_model, state, dry_run
+                    )
+                    if accel_response:
+                        # This was an acceleration command
+                        item.reply(accel_response)
+                        print(f"       🚀 Handled acceleration command for u/{author_name}")
+                        replied_to.add(item.id)
+                        replies_sent += 1
+                        continue
+                
+                # Generate regular conversational response
                 response_text, token_info = generate_conversational_response(
                     item,
                     submission,
