@@ -22,9 +22,9 @@ from config import (
 )
 
 
-def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> int:
+def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> tuple[int, int]:
     """
-    Calculate total karma from pro-AI subreddits.
+    Calculate karma from pro-AI subreddits and total karma from scanned items.
     
     Args:
         redditor: PRAW Redditor object
@@ -32,11 +32,12 @@ def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> int:
         scan_limit: Max items to scan (defaults to ACCELERATION_SCAN_LIMIT)
     
     Returns:
-        Net karma score from pro-AI subreddits
+        Tuple of (pro_ai_karma, total_karma)
     """
     if scan_limit is None:
         scan_limit = ACCELERATION_SCAN_LIMIT
     
+    pro_ai_karma = 0
     total_karma = 0
     items_scanned = 0
     pro_ai_subs_lower = {sub.lower() for sub in ACCELERATION_PRO_AI_SUBS}
@@ -48,8 +49,9 @@ def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> int:
                 break
             
             sub_name = comment.subreddit.display_name.lower()
+            total_karma += comment.score
             if sub_name in pro_ai_subs_lower:
-                total_karma += comment.score
+                pro_ai_karma += comment.score
             items_scanned += 1
         
         # Scan submissions (posts)
@@ -59,39 +61,33 @@ def calculate_pro_ai_karma(redditor, reddit, scan_limit: int = None) -> int:
                 break
             
             sub_name = submission.subreddit.display_name.lower()
+            total_karma += submission.score
             if sub_name in pro_ai_subs_lower:
-                total_karma += submission.score
+                pro_ai_karma += submission.score
             items_scanned += 1
     
     except Exception as e:
         print(f"    ⚠️ Error scanning karma for u/{redditor.name}: {e}")
-        return 0
+        return 0, 0
     
-    return total_karma
+    return pro_ai_karma, total_karma
 
 
-def get_acceleration_tier(score: int, high_score: int) -> str:
+def get_acceleration_tier(ratio: float) -> str:
     """
-    Get tier name based on score relative to high score.
+    Get tier name based on ratio of pro-AI karma to total karma.
     
     Args:
-        score: User's pro-AI karma score
-        high_score: Current highest score in the system
+        ratio: Pro-AI karma / total karma (0.0 to 1.0)
     
     Returns:
         Tier name string
     """
-    if score <= 0:
+    if ratio <= 0:
         return ACCELERATION_ZERO_TIER
     
-    if high_score <= 0:
-        # No valid high score yet, default to lowest positive tier
-        return ACCELERATION_TIERS[-1][1]  # "Crawling"
-    
-    percentage = score / high_score
-    
     for threshold, tier_name in ACCELERATION_TIERS:
-        if percentage >= threshold:
+        if ratio >= threshold:
             return tier_name
     
     # Fallback (shouldn't happen but safety)
@@ -291,16 +287,19 @@ def handle_acceleration_command(
         # Calculate their karma
         try:
             redditor = reddit.redditor(author_name)
-            score = calculate_pro_ai_karma(redditor, reddit)
+            pro_ai_karma, total_karma = calculate_pro_ai_karma(redditor, reddit)
         except Exception as e:
             print(f"    ❌ Error getting redditor u/{author_name}: {e}")
             return "Sorry, I couldn't calculate your score right now. Please try again later!", state
         
-        # Update high score if needed
-        if score > accel_state.get("high_score", 0):
-            accel_state["high_score"] = score
+        # Calculate ratio
+        if total_karma > 0:
+            ratio = pro_ai_karma / total_karma
+        else:
+            ratio = 0.0
         
-        tier = get_acceleration_tier(score, accel_state["high_score"])
+        tier = get_acceleration_tier(ratio)
+        ratio_percent = int(ratio * 100)
         
         if action == "on":
             # Enable and set flair
@@ -308,7 +307,9 @@ def handle_acceleration_command(
             accel_state["opted_in_users"][author_name] = {
                 "enabled": True,
                 "last_calculated": now,
-                "score": score,
+                "pro_ai_karma": pro_ai_karma,
+                "total_karma": total_karma,
+                "ratio": ratio,
                 "tier": tier
             }
             
@@ -317,7 +318,7 @@ def handle_acceleration_command(
             
             response = (
                 f"Your Acceleration flair is now active! 🚀\n\n"
-                f"**Score:** {score} karma from pro-AI subs\n"
+                f"**Focus:** {ratio_percent}% of your karma is from pro-AI subs\n"
                 f"**Tier:** {tier}\n\n"
                 f"Your flair will update weekly. To turn it off, just ask me!"
             )
@@ -325,16 +326,16 @@ def handle_acceleration_command(
             # Just checking, don't modify flair
             response = (
                 f"Here's your Acceleration status:\n\n"
-                f"**Score:** {score} karma from pro-AI subs\n"
+                f"**Focus:** {ratio_percent}% of your karma is from pro-AI subs\n"
                 f"**Tier:** {tier}\n\n"
                 f"{'Your flair is active!' if author_name in accel_state['opted_in_users'] else 'Your flair is not active. Ask me to turn it on!'}"
             )
         
-        # Check for negative karma alert
-        if score < ACCELERATION_MODMAIL_THRESHOLD:
+        # Check for negative karma alert (still uses raw pro_ai_karma for background scanning)
+        if pro_ai_karma < ACCELERATION_MODMAIL_THRESHOLD:
             if author_name not in accel_state.get("alerted_users", []):
                 if not dry_run:
-                    alert_mods_negative_karma(subreddit, author_name, score)
+                    alert_mods_negative_karma(subreddit, author_name, pro_ai_karma)
                 accel_state.setdefault("alerted_users", []).append(author_name)
         
         return response, state
@@ -383,26 +384,31 @@ def refresh_opted_in_users(
         
         try:
             redditor = reddit.redditor(username)
-            score = calculate_pro_ai_karma(redditor, reddit)
+            pro_ai_karma, total_karma = calculate_pro_ai_karma(redditor, reddit)
             
-            # Update high score if needed
-            if score > accel_state.get("high_score", 0):
-                accel_state["high_score"] = score
+            # Calculate ratio
+            if total_karma > 0:
+                ratio = pro_ai_karma / total_karma
+            else:
+                ratio = 0.0
             
-            tier = get_acceleration_tier(score, accel_state["high_score"])
+            tier = get_acceleration_tier(ratio)
+            ratio_percent = int(ratio * 100)
             
             # Update user data
             opted_in[username] = {
                 "enabled": True,
                 "last_calculated": now,
-                "score": score,
+                "pro_ai_karma": pro_ai_karma,
+                "total_karma": total_karma,
+                "ratio": ratio,
                 "tier": tier
             }
             
             if not dry_run:
                 update_user_flair(subreddit, username, tier)
             
-            print(f"    ✅ Refreshed u/{username}: {score} → {tier}")
+            print(f"    ✅ Refreshed u/{username}: {ratio_percent}% → {tier}")
             users_updated += 1
             
         except Exception as e:
@@ -505,28 +511,24 @@ def process_scan_queue(
         
         try:
             redditor = reddit.redditor(username)
-            score = calculate_pro_ai_karma(redditor, reddit, scan_limit=ACCELERATION_BACKGROUND_SCAN_LIMIT)
+            pro_ai_karma, _ = calculate_pro_ai_karma(redditor, reddit, scan_limit=ACCELERATION_BACKGROUND_SCAN_LIMIT)
             
-            # Record the scan
+            # Record the scan (background scanner tracks raw pro-AI karma only)
             scanned_users[username] = {
                 "last_scanned": now,
-                "score": score
+                "pro_ai_karma": pro_ai_karma
             }
             
             # Check for negative karma alert
-            if score < ACCELERATION_MODMAIL_THRESHOLD:
+            if pro_ai_karma < ACCELERATION_MODMAIL_THRESHOLD:
                 if username not in accel_state.get("alerted_users", []):
                     if not dry_run:
-                        alert_mods_negative_karma(subreddit, username, score)
+                        alert_mods_negative_karma(subreddit, username, pro_ai_karma)
                     accel_state.setdefault("alerted_users", []).append(username)
-                    print(f"    ⚠️ Background scan: u/{username} has {score} pro-AI karma")
-            
-            # Update high score if positive
-            if score > accel_state.get("high_score", 0):
-                accel_state["high_score"] = score
+                    print(f"    ⚠️ Background scan: u/{username} has {pro_ai_karma} pro-AI karma")
             
             scanned_count += 1
-            print(f"    📊 Scanned u/{username}: {score} karma (queue: {len(queue)} remaining)")
+            print(f"    📊 Scanned u/{username}: {pro_ai_karma} karma (queue: {len(queue)} remaining)")
             
         except Exception as e:
             print(f"    ⚠️ Error scanning u/{username}: {e}")

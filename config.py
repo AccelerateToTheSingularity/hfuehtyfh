@@ -104,17 +104,17 @@ ACCELERATION_REFRESH_DAYS = 7               # Min days between flair recalculati
 ACCELERATION_BACKGROUND_REFRESH_DAYS = 30   # Min days between background scans (non-opted-in)
 ACCELERATION_MAX_SCANS_PER_RUN = 1          # Max users to scan per bot run cycle (rate limiting)
 
-# Tier thresholds (percentages of high score)
-# Format: (min_percentage, tier_name)
+# Tier thresholds (ratio of pro-AI karma / total karma)
+# Format: (min_ratio, tier_name) - checked in order, first match wins
 ACCELERATION_TIERS = [
-    (0.90, "Light-speed"),   # Top 10%
-    (0.75, "Hypersonic"),    # 75-90%
-    (0.50, "Supersonic"),    # 50-75%
-    (0.25, "Speeding"),      # 25-50%
-    (0.10, "Cruising"),      # 10-25%
-    (0.00, "Crawling"),      # 1-10% (positive)
+    (0.90, "Light-speed"),   # 90%+ focused on pro-AI
+    (0.70, "Hypersonic"),    # 70-90%
+    (0.50, "Supersonic"),    # 50-70%
+    (0.30, "Speeding"),      # 30-50%
+    (0.15, "Cruising"),      # 15-30%
+    (0.01, "Crawling"),      # 1-15% (any positive focus)
 ]
-ACCELERATION_ZERO_TIER = "Stationary"       # Tier for score <= 0
+ACCELERATION_ZERO_TIER = "Stationary"       # Tier for ratio <= 0
 
 # Moderation thresholds
 ACCELERATION_MODMAIL_THRESHOLD = -50        # Send modmail if karma below this
