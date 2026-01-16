@@ -428,7 +428,7 @@
     "opted_in_users": {
       "stealthispost": {
         "enabled": true,
-        "last_calculated": 1768531110.874842,
+        "last_calculated": 0,
         "pro_ai_karma": 48498,
         "total_karma": 53041,
         "ratio": 0.914349276974416,
@@ -436,7 +436,7 @@
       },
       "OrdinaryLavishness11": {
         "enabled": true,
-        "last_calculated": 1768531110.874842,
+        "last_calculated": 0,
         "pro_ai_karma": 3393,
         "total_karma": 12351,
         "ratio": 0.2747145980082584,
@@ -444,7 +444,7 @@
       },
       "cloudrunner6969": {
         "enabled": true,
-        "last_calculated": 1768531110.874842,
+        "last_calculated": 0,
         "pro_ai_karma": 8606,
         "total_karma": 18043,
         "ratio": 0.476971678767389,
