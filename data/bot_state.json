@@ -425,19 +425,19 @@
     "opted_in_users": {
       "stealthispost": {
         "enabled": true,
-        "last_calculated": 1768452985.3901,
+        "last_calculated": 0,
         "score": 23604,
         "tier": "Light-speed"
       },
       "OrdinaryLavishness11": {
         "enabled": true,
-        "last_calculated": 1768479740.506305,
+        "last_calculated": 0,
         "score": 3346,
         "tier": "Crawling"
       },
       "cloudrunner6969": {
         "enabled": true,
-        "last_calculated": 1768480871.000013,
+        "last_calculated": 0,
         "score": 8627,
         "tier": "Cruising"
       }

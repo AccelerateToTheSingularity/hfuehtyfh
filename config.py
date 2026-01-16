@@ -103,6 +103,7 @@ ACCELERATION_BACKGROUND_SCAN_LIMIT = 500    # Max to scan for background checks 
 ACCELERATION_REFRESH_DAYS = 7               # Min days between flair recalculations (opted-in)
 ACCELERATION_BACKGROUND_REFRESH_DAYS = 30   # Min days between background scans (non-opted-in)
 ACCELERATION_MAX_SCANS_PER_RUN = 1          # Max users to scan per bot run cycle (rate limiting)
+ACCELERATION_FORCE_REFRESH = True           # Force refresh ALL opted-in users on next run (set to False after)
 
 # Tier thresholds (ratio of pro-AI karma / total karma)
 # Format: (min_ratio, tier_name) - checked in order, first match wins
