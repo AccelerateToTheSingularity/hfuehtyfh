@@ -106,6 +106,38 @@ def get_acceleration_tier(ratio: float) -> str:
     return ACCELERATION_TIERS[-1][1]
 
 
+def get_or_create_accel_template(subreddit) -> str | None:
+    """
+    Get or create the Acceleration flair template with custom colors.
+    Returns the template ID if found/created, None on error.
+    """
+    TEMPLATE_TEXT = "Acceleration"  # Template identifier
+    
+    try:
+        # Check if template already exists
+        for template in subreddit.flair.templates:
+            if template.get("text", "").startswith("Acceleration"):
+                return template["id"]
+        
+        # Create new template with desired colors
+        subreddit.flair.templates.add(
+            text=TEMPLATE_TEXT,
+            text_editable=True,  # Allow custom text per user
+            background_color="#EAEDEF",
+            text_color="dark"
+        )
+        
+        # Get the newly created template ID
+        for template in subreddit.flair.templates:
+            if template.get("text", "").startswith("Acceleration"):
+                return template["id"]
+                
+    except Exception as e:
+        print(f"    ⚠️ Could not get/create flair template: {e}")
+    
+    return None
+
+
 def update_user_flair(subreddit, username: str, tier: str | None, remove: bool = False) -> bool:
     """
     Update user's flair to include/update/remove Acceleration tier.
@@ -138,6 +170,8 @@ def update_user_flair(subreddit, username: str, tier: str | None, remove: bool =
             # Clean up any leading/trailing pipes
             new_flair = re.sub(r"^\s*\|\s*", "", new_flair)
             new_flair = re.sub(r"\s*\|\s*$", "", new_flair)
+            # Just set text, no template needed for removal
+            subreddit.flair.set(username, text=new_flair if new_flair else None)
         else:
             accel_text = f"Acceleration: {tier}"
             
@@ -150,14 +184,17 @@ def update_user_flair(subreddit, username: str, tier: str | None, remove: bool =
             else:
                 # No existing flair
                 new_flair = accel_text
+            
+            # Get or create the template with colors
+            template_id = get_or_create_accel_template(subreddit)
+            
+            if template_id:
+                # Use template for colors
+                subreddit.flair.set(username, text=new_flair, flair_template_id=template_id)
+            else:
+                # Fallback to plain text if template fails
+                subreddit.flair.set(username, text=new_flair)
         
-        # Set the new flair with custom colors
-        subreddit.flair.set(
-            username, 
-            text=new_flair if new_flair else None,
-            background_color="#EAEDEF",
-            text_color="dark"
-        )
         return True
     
     except Exception as e:
