@@ -151,8 +151,13 @@ def update_user_flair(subreddit, username: str, tier: str | None, remove: bool =
                 # No existing flair
                 new_flair = accel_text
         
-        # Set the new flair
-        subreddit.flair.set(username, text=new_flair if new_flair else None)
+        # Set the new flair with custom colors
+        subreddit.flair.set(
+            username, 
+            text=new_flair if new_flair else None,
+            background_color="#EAEDEF",
+            text_color="dark"
+        )
         return True
     
     except Exception as e:
