@@ -319,13 +319,26 @@ def handle_acceleration_command(
         return response, state
     
     elif action in ("on", "check"):
-        # Calculate their karma
-        try:
-            redditor = reddit.redditor(author_name)
-            pro_ai_karma, total_karma = calculate_pro_ai_karma(redditor, reddit)
-        except Exception as e:
-            print(f"    ❌ Error getting redditor u/{author_name}: {e}")
-            return "Sorry, I couldn't calculate your score right now. Please try again later!", state
+        # Check if we have a recent calculation (within 1 week) to prevent fluctuation
+        now = datetime.utcnow().timestamp()
+        cached_data = user_data if user_data else accel_state.get("scanned_users", {}).get(author_name, {})
+        last_calc = cached_data.get("last_calculated", cached_data.get("last_scanned", 0))
+        
+        # Use cached score if calculated within the last week (matches flair refresh cycle)
+        CACHE_DURATION_SECONDS = 7 * 24 * 3600  # 1 week
+        if (now - last_calc) < CACHE_DURATION_SECONDS and cached_data.get("total_karma", 0) > 0:
+            # Reuse cached values
+            pro_ai_karma = cached_data.get("pro_ai_karma", 0)
+            total_karma = cached_data.get("total_karma", 0)
+            print(f"    📋 Using cached score for u/{author_name} (calculated {int((now - last_calc) / 60)}m ago)")
+        else:
+            # Calculate fresh
+            try:
+                redditor = reddit.redditor(author_name)
+                pro_ai_karma, total_karma = calculate_pro_ai_karma(redditor, reddit)
+            except Exception as e:
+                print(f"    ❌ Error getting redditor u/{author_name}: {e}")
+                return "Sorry, I couldn't calculate your score right now. Please try again later!", state
         
         # Calculate ratio
         if total_karma > 0:
@@ -337,8 +350,7 @@ def handle_acceleration_command(
         ratio_percent = int(ratio * 100)
         
         if action == "on":
-            # Enable and set flair
-            now = datetime.utcnow().timestamp()
+            # Enable and set flair (now is already calculated above for caching)
             accel_state["opted_in_users"][author_name] = {
                 "enabled": True,
                 "last_calculated": now,
