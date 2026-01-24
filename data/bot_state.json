@@ -1,65 +1,75 @@
 {
-  "last_check": 1768531807.162798,
+  "last_check": 1769216904.307417,
   "processed_posts": [
-    "1qdau9j",
-    "1q26fmj",
-    "1qdw2jt",
-    "1q701lu",
-    "1qd67sd",
+    "1q4rao5",
+    "1qko7h0",
+    "1q97atr",
     "1q4fkkg",
+    "1q62h43",
+    "1qhtkvz",
+    "1q27d25",
+    "1qdau9j",
+    "1qa93ay",
+    "1qaxv2p",
+    "1qfclul",
+    "1q3u54t",
+    "1qabwlw",
+    "1q4rzri",
+    "1q5k9h6",
+    "1q26fmj",
+    "1q6cu5z",
+    "1q69lay",
+    "1qfigr7",
+    "1q7qkoq",
+    "1q7emu1",
+    "1qjgg9i",
     "1q33qfc",
-    "1q6o06k",
+    "1q7c6uw",
+    "1q7m008",
+    "1q2vynu",
+    "1q7djrc",
+    "1q2j6a2",
+    "1q7umxx",
+    "1q540w8",
+    "1qequ0m",
+    "1qd67sd",
+    "1q44o35",
     "1qdaup3",
     "1q9cjpt",
-    "1q3d8rv",
-    "1qaxv2p",
-    "1qdatsk",
     "1qbkefl",
-    "1q97atr",
-    "1qadsk2",
+    "1qdatsk",
     "1qby294",
-    "1q7m008",
-    "1q2wcw6",
-    "1q5k9h6",
-    "1q4rao5",
-    "1qa93ay",
-    "1q54gen",
-    "1q7umxx",
-    "1q2vynu",
-    "1q7qkoq",
-    "1q6cu5z",
-    "1q27d25",
-    "1q7xnf2",
-    "1q4rzri",
     "1qbpvi3",
-    "1q7emu1",
-    "1qabwlw",
-    "1q7c6uw",
-    "1q7djrc",
-    "1qcpayu",
-    "1q3u54t",
-    "1q44o35",
-    "1qdtot7",
-    "1q8cpgu",
-    "1q2j6a2",
-    "1q62h43",
-    "1q69lay",
-    "1q540w8",
-    "1q225qa",
     "1qbip20",
-    "1q65mtf"
+    "1q6o06k",
+    "1q8cpgu",
+    "1qhcymd",
+    "1q701lu",
+    "1q2wcw6",
+    "1qip1vb",
+    "1q3d8rv",
+    "1qfb724",
+    "1q7xnf2",
+    "1qadsk2",
+    "1qcpayu",
+    "1qdw2jt",
+    "1q65mtf",
+    "1qdtot7",
+    "1q225qa",
+    "1q54gen",
+    "1qe6vmt"
   ],
   "stats": {
-    "total_posts_processed": 1467,
-    "total_tldrs_generated": 138,
-    "total_tokens_used": 391104,
-    "total_cost": 0.05081189999999996,
-    "total_replies_sent": 46,
-    "total_summons_handled": 17,
-    "total_crossposts": 5
+    "total_posts_processed": 2300,
+    "total_tldrs_generated": 186,
+    "total_tokens_used": 571711,
+    "total_cost": 0.07447239999999991,
+    "total_replies_sent": 61,
+    "total_summons_handled": 21,
+    "total_crossposts": 11
   },
-  "daily_tldrs": 6,
-  "daily_reset_date": "2026-01-16",
+  "daily_tldrs": 1,
+  "daily_reset_date": "2026-01-24",
   "comment_summaries": {
     "1q2crc2": 100,
     "1q27d25": 50,
@@ -172,172 +182,292 @@
     "1qdgcn8": 20,
     "1qdw2jt": 50,
     "1qdtgae": 20,
-    "1qdqme1": 20
+    "1qdqme1": 20,
+    "1qe9npi": 50,
+    "1qdneym": 20,
+    "1qedomj": 100,
+    "1qegcnw": 50,
+    "1qejemr": 50,
+    "1qena3r": 100,
+    "1qex33h": 100,
+    "1qeslia": 20,
+    "1qf5ewe": 100,
+    "1qfccm7": 50,
+    "1qfj04g": 20,
+    "1qfncxr": 100,
+    "1qfd3s5": 20,
+    "1qfulxf": 20,
+    "1qfviol": 50,
+    "1qfm70w": 20,
+    "1qfj62l": 20,
+    "1qfxyaz": 100,
+    "1qfn160": 20,
+    "1qg15ou": 20,
+    "1qgl748": 50,
+    "1qglr28": 20,
+    "1qgu7sy": 100,
+    "1qgy2de": 100,
+    "1qgwsqk": 50,
+    "1qgw1wg": 20,
+    "1qh4usu": 20,
+    "1qhcymd": 50,
+    "1qhgyzb": 20,
+    "1qhpepv": 50,
+    "1qht0ej": 100,
+    "1qhstiu": 20,
+    "1qi1ts0": 100,
+    "1qialzn": 20,
+    "1qiekpj": 20,
+    "1qik3jh": 100,
+    "1qikvuo": 20,
+    "1qih7ej": 20,
+    "1qikmp7": 50,
+    "1qiv32x": 100,
+    "1qi7c8w": 20,
+    "1qivcsp": 20,
+    "1qjef32": 100,
+    "1qje8lc": 50,
+    "1qjjjk8": 20,
+    "1qj9ak0": 20,
+    "1qjse41": 50,
+    "1qjro4z": 20,
+    "1qk1ua6": 100,
+    "1qjzov5": 100,
+    "1qkbzyk": 100,
+    "1qklxu8": 50,
+    "1qklwz5": 20,
+    "1qko7h0": 50,
+    "1qkxy45": 20,
+    "1qkimri": 20,
+    "1ql33gi": 100,
+    "1qkm4o1": 20
   },
   "processed_comments": [
-    "nzd1yfr",
-    "nz4b2xf",
-    "nz41czd",
-    "nxce127",
-    "nxvhhoe",
-    "nxno5rr",
-    "nxpk7b5",
-    "nxejn2y",
-    "nxekwxj",
-    "nzu1ya7",
-    "ny37z7a",
-    "nxazc5k",
-    "nxphk4y",
-    "nywt659",
-    "nyk58es",
-    "ny293gz",
-    "nzu7uhg",
-    "nxdk2bj",
-    "nxnhaht",
-    "nzpkeg3",
-    "nxiynxs",
-    "nye23b7",
-    "nxk3n98",
-    "nxipkoz",
-    "nxuzsv2",
-    "nxiq52y",
-    "nxcs3ob",
-    "nxpwio9",
-    "nzeqmm7",
-    "nxrc6ao",
-    "ny4iayi",
-    "nxchy4o",
-    "nxbokj1",
-    "nz2tmab",
-    "nxsimx3",
-    "ny1sn8h",
-    "nxybcnx",
-    "nyogoff",
-    "ny67qkn",
-    "nyk2ezz",
-    "nxg73ar",
-    "nxroiz2",
-    "nziap1u",
-    "nxwdkcz",
+    "o0vuep4",
     "ny2d52i",
-    "nxmvsc1",
-    "nxyjwp9",
-    "nxre2br",
-    "nzlrnih",
-    "ny7e4vg",
-    "nxv4o9y",
-    "nxy2dw5",
+    "ny67qkn",
     "nxcxbyj",
-    "nxgzw97",
-    "nxjkbkz",
-    "nxmjmjk",
-    "nxppp55",
-    "nxpw7nf",
-    "nxpmphx",
-    "nz3upyz",
-    "nxct18i",
-    "nyijjg5",
-    "ny2f3ix",
+    "nxg73ar",
+    "o057xcx",
     "nxqizg7",
-    "nxx5vxs",
-    "nxwtmqc",
-    "ny806ti",
-    "nxwr2hx",
-    "nxvhj7h",
-    "nxy9qcz",
+    "o0vpi90",
+    "nz2tmab",
+    "nxwl6wy",
+    "nxsimx3",
+    "o00vdz0",
+    "nxa9soc",
     "nxdhd5t",
-    "ny93dyv",
-    "nxhgz39",
-    "nyk5pa2",
+    "nxiq52y",
+    "nzxty5j",
+    "nxpmphx",
+    "nxvhhoe",
+    "nzd1yfr",
+    "nzu1ya7",
+    "o02z3w1",
     "nxr1fhv",
+    "nzucdfd",
+    "nxxzlrt",
+    "nxy2dw5",
+    "ny9cer2",
+    "nxy9qcz",
+    "nxct18i",
+    "nxrc6ao",
+    "nyogoff",
+    "o0u03mc",
+    "nxyjwp9",
+    "o04z30s",
+    "o0ujbsg",
+    "nywt659",
+    "nxipkoz",
+    "ny2ueun",
+    "nxiynxs",
+    "nxxct4g",
+    "nxvhj7h",
+    "o16qxqy",
+    "nzeqmm7",
+    "nz4b2xf",
+    "ny7e4vg",
+    "ny293gz",
+    "o08m9gk",
+    "nz41czd",
+    "nxmvsc1",
+    "nxmjmjk",
+    "o0g30jb",
+    "ny1sn8h",
+    "ny2red8",
+    "nxy9b4i",
+    "nxazc5k",
+    "o00toth",
+    "o0zmgwu",
+    "o0z6ooo",
+    "nz3upyz",
+    "nxx5vxs",
+    "nzpkeg3",
+    "nziap1u",
+    "o1907zq",
+    "nxbokj1",
+    "nxybcnx",
+    "nxf2px2",
+    "nxgzw97",
+    "nxhgz39",
+    "o1bb0sd",
+    "nxwdkcz",
+    "nxjkbkz",
+    "o184g1s",
+    "ny4iayi",
+    "nyk58es",
+    "nxppp55",
+    "nzlrnih",
+    "nxpw7nf",
     "nyd0c6x",
     "nxdhi17",
-    "nyu6hk3",
-    "ny2red8",
-    "nxf2px2",
+    "nxuzsv2",
+    "o12453r",
+    "nxekwxj",
     "nxcciit",
-    "nxy9b4i",
-    "ny2ueun",
-    "nxa9soc",
-    "ny9cer2",
-    "nzuj8zx",
+    "nxre2br",
+    "o10vq7l",
+    "ny2f3ix",
+    "nxpk7b5",
+    "o0vn35k",
     "nycp6s2",
-    "nxwl6wy",
-    "nxxzlrt",
-    "nxxct4g",
-    "nzucdfd"
+    "o0vicb5",
+    "nxphk4y",
+    "ny806ti",
+    "nxcs3ob",
+    "nzu7uhg",
+    "nxk3n98",
+    "o1b4koa",
+    "o10grct",
+    "o02aqip",
+    "nye23b7",
+    "nxdk2bj",
+    "nxejn2y",
+    "nyk2ezz",
+    "o09cfbd",
+    "o0v600m",
+    "o0pc61w",
+    "nxno5rr",
+    "nyijjg5",
+    "nyk5pa2",
+    "nxroiz2",
+    "nxnhaht",
+    "nxchy4o",
+    "ny37z7a",
+    "nxwtmqc",
+    "o0kpqfs",
+    "o17zra5",
+    "nxpwio9",
+    "nxwr2hx",
+    "nxce127",
+    "o02lvxl",
+    "o14wm5s",
+    "nzuj8zx",
+    "ny93dyv",
+    "o0pd6re",
+    "nxv4o9y",
+    "o0u9k4v",
+    "nyu6hk3",
+    "o0eu2i9",
+    "o0z7knv",
+    "o0vaemw",
+    "nzy4pjj"
   ],
   "replied_to_comments": [
-    "nyejv3y",
-    "nyd61qq",
-    "nxswgju",
-    "nxlantk",
-    "nz6in2u",
-    "nzonre4",
-    "nzr65r5",
-    "nxs31r5",
-    "ny969lr",
-    "nxprbfb",
-    "nxpmi38",
-    "nyxbzik",
-    "nzojpcq",
-    "nxouf85",
-    "nzsnsr8",
-    "nxv10fn",
-    "nyets82",
-    "nxljllq",
-    "nzogw2m",
-    "nynrr7v",
-    "nxrfg44",
-    "ny2if4k",
-    "nzpqbq3",
-    "nxrvrfq",
-    "nz37po5",
-    "nxfsczs",
-    "nxfmbhz",
-    "nyatkw2",
-    "ny1iu98",
-    "nyeh36k",
+    "o0awth3",
     "nygnxsu",
-    "nzsjksp",
-    "nyda2si",
-    "nxfa10f",
-    "ny4wihf",
-    "nxoqf2s",
-    "nxoqvar",
-    "nyxndp0",
-    "nz25l7r",
-    "nxnvb2g",
-    "nzeuzt0",
-    "nyewf4j",
-    "nxswpsn",
-    "nzpue55",
-    "nxnu18w",
-    "nxoz47t",
-    "ny218ha",
     "nxfx0n7",
-    "nzrdg3l"
-  ],
-  "recent_user_replies": {},
-  "daily_replies": 0,
-  "summon_responses": [
-    "nyvqp5q",
-    "nzpqbq3",
-    "ny4klb3",
-    "ny3grix",
-    "nz1vr7p",
-    "ny4ta0j",
-    "nxoypc4",
+    "nzeuzt0",
+    "nyd61qq",
+    "nyets82",
+    "nxpmi38",
+    "o18655j",
+    "nz37po5",
+    "nxfa10f",
     "nzojpcq",
-    "ny882ti",
+    "nxfsczs",
+    "o1bu69j",
+    "ny218ha",
+    "o1cc414",
+    "nxfmbhz",
+    "nyejv3y",
+    "nxoqvar",
+    "nyxbzik",
+    "nzrdg3l",
+    "o1c7zop",
+    "nyewf4j",
+    "o11zr30",
+    "nxnu18w",
+    "o16r6tq",
+    "nz6in2u",
+    "o1btp6w",
+    "nxs31r5",
+    "nxnvb2g",
+    "nxouf85",
+    "nxswgju",
+    "nxrvrfq",
+    "nyxndp0",
+    "o18h9mu",
+    "nzsnsr8",
+    "ny2if4k",
+    "nyda2si",
+    "nzogw2m",
+    "nxoz47t",
+    "o18c9l2",
+    "nz25l7r",
+    "nxprbfb",
+    "o15ow8g",
+    "nxv10fn",
+    "nxlantk",
+    "o15ssei",
+    "nxrfg44",
+    "nxljllq",
+    "nzpue55",
+    "o0jqwqf",
+    "nzonre4",
+    "ny969lr",
+    "ny4wihf",
+    "nynrr7v",
     "nzsjksp",
-    "nzspzzd",
-    "nyd4bhl",
+    "nxoqf2s",
+    "ny1iu98",
+    "nzpqbq3",
+    "nzvydli",
+    "nyatkw2",
+    "nzr65r5",
+    "nyeh36k",
+    "o18odjs",
+    "nxswpsn"
+  ],
+  "recent_user_replies": {
+    "EmperorMagpie": {
+      "count": 1,
+      "first_reply_time": 1769216879.705593
+    }
+  },
+  "daily_replies": 2,
+  "summon_responses": [
+    "o0hip84",
+    "ny3grix",
+    "nyvqp5q",
     "nzocbnm",
     "nzprtku",
-    "nzr65r5",
+    "nzojpcq",
+    "ny4klb3",
+    "o18bb2z",
+    "nxoypc4",
+    "o0cva0g",
+    "nyd4bhl",
+    "nzspzzd",
+    "o0hddwu",
+    "ny882ti",
+    "ny4ta0j",
     "nzogw2m",
-    "nzpvcap"
+    "nz1vr7p",
+    "nzsjksp",
+    "nzpqbq3",
+    "nzpvcap",
+    "nzr65r5"
   ],
   "moderator_cache": {
     "moderators": [
@@ -367,7 +497,7 @@
       "flag-app",
       "AutoModerator"
     ],
-    "last_refresh": 1768452977.407593
+    "last_refresh": 1769094089.87934
   },
   "crosspost": {
     "history": [
@@ -415,12 +545,66 @@
         "enhanced_title": "Bandcamp Goes Decel and Bans All Music Made with AI",
         "timestamp": "2026-01-15T02:31:32.110607",
         "score_at_crosspost": 82
+      },
+      {
+        "source_post_id": "1qdaj7p",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qdaj7p/oneminute_daily_ai_news_1142026/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qe6wcs/oneminute_daily_ai_news_1142026/",
+        "original_title": "One-Minute Daily AI News 1/14/2026",
+        "enhanced_title": "One-Minute Daily AI News 1/14/2026",
+        "timestamp": "2026-01-16T05:01:40.335903",
+        "score_at_crosspost": 11
+      },
+      {
+        "source_post_id": "1qegcnw",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qegcnw/one_of_the_most_accurate_films_on_artificial/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qf0p47/one_of_the_most_accurate_films_on_artificial/",
+        "original_title": "One of the most accurate films on artificial intelligence ever made. Name some other singularity-pilled media and share your favorite clips",
+        "enhanced_title": "One of the most accurate films on artificial intelligence ever made. Name some other singularity-pilled media and share your favorite clips",
+        "timestamp": "2026-01-17T02:28:24.930710",
+        "score_at_crosspost": 102
+      },
+      {
+        "source_post_id": "1qf5ewe",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qf5ewe/demis_says_that_even_if_frontier_labs_already/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qfzjnb/demis_says_that_even_if_frontier_labs_already/",
+        "original_title": "Demis says that even if Frontier Labs already have AGI they wouldn\u2019t release it but would instead prioritize scaling data centers and energy",
+        "enhanced_title": "Demis says that even if Frontier Labs already have AGI they wouldn\u2019t release it but would instead prioritize scaling data centers and energy",
+        "timestamp": "2026-01-18T05:03:28.567661",
+        "score_at_crosspost": 248
+      },
+      {
+        "source_post_id": "1qgu7sy",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qgu7sy/how_i_feel_talking_to_doomers_after_ai/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qhpxes/how_i_feel_talking_to_doomers_after_ai/",
+        "original_title": "How I feel talking to doomers after AI autonomously solved the 4th Erdos Problem in a week",
+        "enhanced_title": "How I feel talking to doomers after AI autonomously solved the 4th Erdos Problem in a week",
+        "timestamp": "2026-01-20T03:26:12.515361",
+        "score_at_crosspost": 195
+      },
+      {
+        "source_post_id": "1qhstiu",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qhstiu/xai_employee_is_fired_after_leaking_the_roadmap/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qilps5/xai_employee_fired_after_leaking_human_emulator/",
+        "original_title": "xAI Employee Is Fired After Leaking The Roadmap For xAI's MacroHard on a Podcast. The Former Employee Claimed MacroHard's Primary Objective Is Basically Creating A \"Human Emulator\" That Does Everything.",
+        "enhanced_title": "xAI Employee Fired After Leaking \"Human Emulator\" Roadmap! \ud83d\udc40",
+        "timestamp": "2026-01-21T02:36:56.659995",
+        "score_at_crosspost": 135
+      },
+      {
+        "source_post_id": "1qjjjk8",
+        "source_url": "https://reddit.com/r/accelerate/comments/1qjjjk8/ai_is_more_like_the_printing_press/",
+        "target_url": "https://reddit.com/r/ProAI/comments/1qkenkl/ai_is_more_like_the_printing_press/",
+        "original_title": "AI is more like the Printing Press.",
+        "enhanced_title": "AI is more like the Printing Press.",
+        "timestamp": "2026-01-23T02:36:16.723552",
+        "score_at_crosspost": 39
       }
     ],
-    "last_crosspost_date": "2026-01-15",
+    "last_crosspost_date": "2026-01-23",
     "daily_crossposts": 0,
-    "scheduled_date": "2026-01-16",
-    "scheduled_hour": 5,
+    "scheduled_date": "2026-01-24",
+    "scheduled_hour": 3,
     "skip_today": false
   },
   "acceleration": {
@@ -428,27 +612,75 @@
     "opted_in_users": {
       "stealthispost": {
         "enabled": true,
-        "last_calculated": 0,
-        "pro_ai_karma": 48498,
-        "total_karma": 53041,
-        "ratio": 0.914349276974416,
+        "last_calculated": 1769140429.339639,
+        "pro_ai_karma": 48545,
+        "total_karma": 52652,
+        "ratio": 0.9219972650611563,
         "tier": "Light-speed"
       },
       "OrdinaryLavishness11": {
         "enabled": true,
-        "last_calculated": 0,
-        "pro_ai_karma": 3393,
-        "total_karma": 12351,
-        "ratio": 0.2747145980082584,
+        "last_calculated": 1769140429.339639,
+        "pro_ai_karma": 3435,
+        "total_karma": 12435,
+        "ratio": 0.2762364294330519,
         "tier": "Cruising"
       },
       "cloudrunner6969": {
         "enabled": true,
-        "last_calculated": 0,
-        "pro_ai_karma": 8606,
-        "total_karma": 18043,
-        "ratio": 0.476971678767389,
+        "last_calculated": 1769140429.339639,
+        "pro_ai_karma": 8734,
+        "total_karma": 18095,
+        "ratio": 0.4826747720364742,
         "tier": "Speeding"
+      },
+      "ucov": {
+        "enabled": true,
+        "last_calculated": 1768770401.096869,
+        "pro_ai_karma": 100,
+        "total_karma": 9241,
+        "ratio": 0.010821339681852614,
+        "tier": "Crawling"
+      },
+      "MiserableMission6254": {
+        "enabled": true,
+        "last_calculated": 1768857188.522259,
+        "pro_ai_karma": 51,
+        "total_karma": 51,
+        "ratio": 1.0,
+        "tier": "Light-speed"
+      },
+      "sdvbjdsjkb245": {
+        "enabled": true,
+        "last_calculated": 1769133061.758721,
+        "pro_ai_karma": 1225,
+        "total_karma": 1225,
+        "ratio": 1.0,
+        "tier": "Light-speed"
+      },
+      "ParadigmTheorem": {
+        "enabled": true,
+        "last_calculated": 1769174688.472016,
+        "pro_ai_karma": 755,
+        "total_karma": 783,
+        "ratio": 0.9642401021711366,
+        "tier": "Light-speed"
+      },
+      "DeManMetHetPlan": {
+        "enabled": true,
+        "last_calculated": 1769178288.164823,
+        "pro_ai_karma": 80,
+        "total_karma": 98,
+        "ratio": 0.8163265306122449,
+        "tier": "Hypersonic"
+      },
+      "TemporalBias": {
+        "enabled": true,
+        "last_calculated": 1769210026.676519,
+        "pro_ai_karma": 2009,
+        "total_karma": 2921,
+        "ratio": 0.687778158165012,
+        "tier": "Supersonic"
       }
     },
     "alerted_users": [],
@@ -1108,103 +1340,3840 @@
       "Friendly_Willingness": {
         "last_scanned": 1768531806.149619,
         "pro_ai_karma": 24
+      },
+      "chipperm80": {
+        "last_scanned": 1768533885.017433,
+        "pro_ai_karma": 1
+      },
+      "notabananaperson1": {
+        "last_scanned": 1768535607.275731,
+        "pro_ai_karma": 6
+      },
+      "why_does_life_exist": {
+        "last_scanned": 1768536816.711369,
+        "pro_ai_karma": 36
+      },
+      "Short-Cow-4722": {
+        "last_scanned": 1768537794.665324,
+        "pro_ai_karma": 31
+      },
+      "Ok_Elderberry_6727": {
+        "last_scanned": 1768538930.033315,
+        "pro_ai_karma": 1024
+      },
+      "bhariLund": {
+        "last_scanned": 1768539700.335969,
+        "pro_ai_karma": 48
+      },
+      "Outside-Ad9410": {
+        "last_scanned": 1768540441.00194,
+        "pro_ai_karma": 1117
+      },
+      "artemisgarden": {
+        "last_scanned": 1768541250.755496,
+        "pro_ai_karma": 108
+      },
+      "Singularity-42": {
+        "last_scanned": 1768542091.87888,
+        "pro_ai_karma": 332
+      },
+      "Herodont5915": {
+        "last_scanned": 1768542714.668943,
+        "pro_ai_karma": 150
+      },
+      "bigsmokaaaa": {
+        "last_scanned": 1768543134.345638,
+        "pro_ai_karma": 60
+      },
+      "Comfortable_Doubt649": {
+        "last_scanned": 1768544114.928925,
+        "pro_ai_karma": 8
+      },
+      "Disastrous-Art-9041": {
+        "last_scanned": 1768545053.420262,
+        "pro_ai_karma": 228
+      },
+      "addition": {
+        "last_scanned": 1768546151.388657,
+        "pro_ai_karma": 252
+      },
+      "raksatya": {
+        "last_scanned": 1768546867.39259,
+        "pro_ai_karma": 1
+      },
+      "bayernboer": {
+        "last_scanned": 1768547600.183968,
+        "pro_ai_karma": 2
+      },
+      "sausage4mash": {
+        "last_scanned": 1768548423.614997,
+        "pro_ai_karma": 82
+      },
+      "PewPewDiie": {
+        "last_scanned": 1768549169.26183,
+        "pro_ai_karma": 106
+      },
+      "LopsidedSolution": {
+        "last_scanned": 1768549676.17914,
+        "pro_ai_karma": 762
+      },
+      "OkPride6601": {
+        "last_scanned": 1768550102.034895,
+        "pro_ai_karma": 12
+      },
+      "Dave_the_lighting_gu": {
+        "last_scanned": 1768550543.903937,
+        "pro_ai_karma": 4
+      },
+      "AdorableBackground83": {
+        "last_scanned": 1768551280.810017,
+        "pro_ai_karma": 2311
+      },
+      "Amatheiaisnoexcuse": {
+        "last_scanned": 1768552152.870571,
+        "pro_ai_karma": 1
+      },
+      "Recover_Infinite": {
+        "last_scanned": 1768553134.415687,
+        "pro_ai_karma": 1
+      },
+      "TraditionalHome8852": {
+        "last_scanned": 1768553846.479245,
+        "pro_ai_karma": 1
+      },
+      "Yokoko44": {
+        "last_scanned": 1768554568.512002,
+        "pro_ai_karma": 189
+      },
+      "Acrobatic-Layer2993": {
+        "last_scanned": 1768555338.547441,
+        "pro_ai_karma": 238
+      },
+      "peakedtooearly": {
+        "last_scanned": 1768556242.644353,
+        "pro_ai_karma": 509
+      },
+      "Evening-Check-1656": {
+        "last_scanned": 1768556915.4403,
+        "pro_ai_karma": 15
+      },
+      "dracollavenore": {
+        "last_scanned": 1768557412.149634,
+        "pro_ai_karma": 1
+      },
+      "kord2003": {
+        "last_scanned": 1768557963.436804,
+        "pro_ai_karma": 1
+      },
+      "Ok_Mission7092": {
+        "last_scanned": 1768558657.283593,
+        "pro_ai_karma": 2226
+      },
+      "IllustriousTea_": {
+        "last_scanned": 1768559540.747706,
+        "pro_ai_karma": 3561
+      },
+      "IntrepidTieKnot": {
+        "last_scanned": 1768560321.548501,
+        "pro_ai_karma": 78
+      },
+      "Gargle-Loaf-Spunk": {
+        "last_scanned": 1768560897.668013,
+        "pro_ai_karma": 4
+      },
+      "MysteriousBill1986": {
+        "last_scanned": 1768561316.29999,
+        "pro_ai_karma": -3
+      },
+      "azimm29": {
+        "last_scanned": 1768561913.439496,
+        "pro_ai_karma": 2
+      },
+      "RobleyTheron": {
+        "last_scanned": 1768562659.063992,
+        "pro_ai_karma": 262
+      },
+      "sequoia-3": {
+        "last_scanned": 1768563263.805808,
+        "pro_ai_karma": 4
+      },
+      "Beneficial_Aside_518": {
+        "last_scanned": 1768563810.35103,
+        "pro_ai_karma": -3
+      },
+      "Facts_pls": {
+        "last_scanned": 1768564271.34299,
+        "pro_ai_karma": 26
+      },
+      "nazgand": {
+        "last_scanned": 1768564635.550285,
+        "pro_ai_karma": 60
+      },
+      "gianfrugo": {
+        "last_scanned": 1768565471.894255,
+        "pro_ai_karma": 479
+      },
+      "Tubfmagier9": {
+        "last_scanned": 1768566277.459084,
+        "pro_ai_karma": 4
+      },
+      "TemporalBias": {
+        "last_scanned": 1768567460.943341,
+        "pro_ai_karma": 1246
+      },
+      "strange_username58": {
+        "last_scanned": 1768568802.945481,
+        "pro_ai_karma": 46
+      },
+      "jonydevidson": {
+        "last_scanned": 1768569942.725815,
+        "pro_ai_karma": 238
+      },
+      "MuchNeighborhood2453": {
+        "last_scanned": 1768571014.623171,
+        "pro_ai_karma": 3
+      },
+      "soliloquyinthevoid": {
+        "last_scanned": 1768571814.948779,
+        "pro_ai_karma": 39
+      },
+      "_hisoka_freecs_": {
+        "last_scanned": 1768572394.415485,
+        "pro_ai_karma": 392
+      },
+      "PaleLaw1745": {
+        "last_scanned": 1768573100.508739,
+        "pro_ai_karma": 1
+      },
+      "SwimmingTall5092": {
+        "last_scanned": 1768573992.758399,
+        "pro_ai_karma": -3
+      },
+      "Crypto_Force_X": {
+        "last_scanned": 1768574735.020441,
+        "pro_ai_karma": 203
+      },
+      "blazedjake": {
+        "last_scanned": 1768575366.088109,
+        "pro_ai_karma": 686
+      },
+      "ForgetPreviousPrompt": {
+        "last_scanned": 1768575928.657732,
+        "pro_ai_karma": 49
+      },
+      "No-Isopod3884": {
+        "last_scanned": 1768576597.165164,
+        "pro_ai_karma": 147
+      },
+      "Choice-Sympathy8235": {
+        "last_scanned": 1768577475.443212,
+        "pro_ai_karma": 15
+      },
+      "endofsight": {
+        "last_scanned": 1768578159.804591,
+        "pro_ai_karma": 274
+      },
+      "Your_mortal_enemy": {
+        "last_scanned": 1768578719.806584,
+        "pro_ai_karma": 70
+      },
+      "sschepis": {
+        "last_scanned": 1768579175.450354,
+        "pro_ai_karma": -1
+      },
+      "hau5keeping": {
+        "last_scanned": 1768579953.619041,
+        "pro_ai_karma": 36
+      },
+      "Revolutionary_Buddha": {
+        "last_scanned": 1768580788.780104,
+        "pro_ai_karma": 253
+      },
+      "Karegohan_and_Kameha": {
+        "last_scanned": 1768581810.077662,
+        "pro_ai_karma": 12
+      },
+      "JustBrowsinAndVibin": {
+        "last_scanned": 1768582585.347608,
+        "pro_ai_karma": 243
+      },
+      "Human-Job2104": {
+        "last_scanned": 1768583248.939068,
+        "pro_ai_karma": 29
+      },
+      "Mindrust": {
+        "last_scanned": 1768583969.721769,
+        "pro_ai_karma": 1165
+      },
+      "Suspicious-Raisin824": {
+        "last_scanned": 1768584823.538161,
+        "pro_ai_karma": 197
+      },
+      "ScorpionFromHell": {
+        "last_scanned": 1768585511.530989,
+        "pro_ai_karma": 369
+      },
+      "budulai89": {
+        "last_scanned": 1768586048.097002,
+        "pro_ai_karma": 16
+      },
+      "Equivalent-Ice-7274": {
+        "last_scanned": 1768586419.550189,
+        "pro_ai_karma": 224
+      },
+      "Haunting_Comparison5": {
+        "last_scanned": 1768587303.464968,
+        "pro_ai_karma": 216
+      },
+      "space_lasers": {
+        "last_scanned": 1768588187.65881,
+        "pro_ai_karma": 799
+      },
+      "LiquidOracle": {
+        "last_scanned": 1768589299.888192,
+        "pro_ai_karma": 22
+      },
+      "marekrei": {
+        "last_scanned": 1768589976.98183,
+        "pro_ai_karma": 0
+      },
+      "RevoDS": {
+        "last_scanned": 1768590654.840914,
+        "pro_ai_karma": 60
+      },
+      "jazir555": {
+        "last_scanned": 1768591326.469406,
+        "pro_ai_karma": 492
+      },
+      "nel-E-nel": {
+        "last_scanned": 1768591875.383796,
+        "pro_ai_karma": 64
+      },
+      "throwaway131251": {
+        "last_scanned": 1768592338.144136,
+        "pro_ai_karma": 7
+      },
+      "wwants": {
+        "last_scanned": 1768592750.618069,
+        "pro_ai_karma": 14
+      },
+      "Zephyr4813": {
+        "last_scanned": 1768593146.528215,
+        "pro_ai_karma": 4
+      },
+      "jdyeti": {
+        "last_scanned": 1768593530.125752,
+        "pro_ai_karma": 1170
+      },
+      "Ifnerite": {
+        "last_scanned": 1768594273.888788,
+        "pro_ai_karma": 106
+      },
+      "iliketurtlz": {
+        "last_scanned": 1768594971.042328,
+        "pro_ai_karma": 6
+      },
+      "PlusWorldliness7": {
+        "last_scanned": 1768595638.302152,
+        "pro_ai_karma": 2
+      },
+      "HurtingForPowder": {
+        "last_scanned": 1768596204.396631,
+        "pro_ai_karma": 0
+      },
+      "Different-Incident64": {
+        "last_scanned": 1768596722.463905,
+        "pro_ai_karma": 0
+      },
+      "Saerain": {
+        "last_scanned": 1768597117.051091,
+        "pro_ai_karma": 381
+      },
+      "W0keBl0ke": {
+        "last_scanned": 1768597770.953017,
+        "pro_ai_karma": 0
+      },
+      "able111": {
+        "last_scanned": 1768598485.576525,
+        "pro_ai_karma": 2
+      },
+      "Stingray2040": {
+        "last_scanned": 1768599182.381859,
+        "pro_ai_karma": 2267
+      },
+      "13-14_Mustang": {
+        "last_scanned": 1768599738.413177,
+        "pro_ai_karma": 105
+      },
+      "leveragedtothetits_": {
+        "last_scanned": 1768600199.819397,
+        "pro_ai_karma": 13
+      },
+      "NerdyWeightLifter": {
+        "last_scanned": 1768600593.201494,
+        "pro_ai_karma": 1
+      },
+      "Ok-Hat32015": {
+        "last_scanned": 1768601099.609823,
+        "pro_ai_karma": 0
+      },
+      "DrHot216": {
+        "last_scanned": 1768601752.084159,
+        "pro_ai_karma": 393
+      },
+      "Relative-Purchase-86": {
+        "last_scanned": 1768602575.534014,
+        "pro_ai_karma": -3
+      },
+      "Keltharious": {
+        "last_scanned": 1768603284.160588,
+        "pro_ai_karma": 97
+      },
+      "BeeWeird7940": {
+        "last_scanned": 1768603861.830287,
+        "pro_ai_karma": 75
+      },
+      "CommunityTough1": {
+        "last_scanned": 1768604234.0159,
+        "pro_ai_karma": 57
+      },
+      "raralala1": {
+        "last_scanned": 1768604810.082472,
+        "pro_ai_karma": 2
+      },
+      "After_Sweet4068": {
+        "last_scanned": 1768605464.703388,
+        "pro_ai_karma": 96
+      },
+      "Still-Remove7058": {
+        "last_scanned": 1768606219.366556,
+        "pro_ai_karma": 332
+      },
+      "YesterdayMost472": {
+        "last_scanned": 1768606775.326755,
+        "pro_ai_karma": 1
+      },
+      "Honest_Science": {
+        "last_scanned": 1768607235.502226,
+        "pro_ai_karma": 22
+      },
+      "y4udothistome": {
+        "last_scanned": 1768607644.653257,
+        "pro_ai_karma": 10
+      },
+      "IceNorth81": {
+        "last_scanned": 1768608038.55716,
+        "pro_ai_karma": 12
+      },
+      "NoSignaL_321": {
+        "last_scanned": 1768610333.915668,
+        "pro_ai_karma": 401
+      },
+      "Life-Ad9610": {
+        "last_scanned": 1768612001.225567,
+        "pro_ai_karma": 2
+      },
+      "Big-Site2914": {
+        "last_scanned": 1768614413.813532,
+        "pro_ai_karma": 425
+      },
+      "Longjumping-Stay7151": {
+        "last_scanned": 1768616904.930786,
+        "pro_ai_karma": 236
+      },
+      "UmapyoiUmapyoi": {
+        "last_scanned": 1768619165.388906,
+        "pro_ai_karma": 3
+      },
+      "Lucyan_xgt": {
+        "last_scanned": 1768621154.856286,
+        "pro_ai_karma": 186
+      },
+      "dysmetric": {
+        "last_scanned": 1768622483.069419,
+        "pro_ai_karma": 70
+      },
+      "helloWHATSUP": {
+        "last_scanned": 1768623486.392577,
+        "pro_ai_karma": 336
+      },
+      "dlrace": {
+        "last_scanned": 1768624419.868006,
+        "pro_ai_karma": 133
+      },
+      "Professional_Bid3371": {
+        "last_scanned": 1768625248.579826,
+        "pro_ai_karma": 1
+      },
+      "LazyHomoSapiens": {
+        "last_scanned": 1768625839.274844,
+        "pro_ai_karma": 979
+      },
+      "DeArgonaut": {
+        "last_scanned": 1768626432.64032,
+        "pro_ai_karma": 32
+      },
+      "R6_Goddess": {
+        "last_scanned": 1768627097.798438,
+        "pro_ai_karma": 1
+      },
+      "TravelPhotons": {
+        "last_scanned": 1768627903.190847,
+        "pro_ai_karma": 21
+      },
+      "synth_mania": {
+        "last_scanned": 1768628511.38711,
+        "pro_ai_karma": 17
+      },
+      "PhilosophyforOne": {
+        "last_scanned": 1768629013.803237,
+        "pro_ai_karma": 50
+      },
+      "ARandomDouchy": {
+        "last_scanned": 1768629376.474477,
+        "pro_ai_karma": 236
+      },
+      "20ol": {
+        "last_scanned": 1768629976.371692,
+        "pro_ai_karma": 95
+      },
+      "anaIconda69": {
+        "last_scanned": 1768630705.940604,
+        "pro_ai_karma": 3
+      },
+      "Crafty-Struggle7810": {
+        "last_scanned": 1768631642.683491,
+        "pro_ai_karma": 37
+      },
+      "Hanna_Bjorn": {
+        "last_scanned": 1768632514.472445,
+        "pro_ai_karma": 2
+      },
+      "Basic_Loquat_9344": {
+        "last_scanned": 1768633092.53225,
+        "pro_ai_karma": 3
+      },
+      "DanceAndLetDance": {
+        "last_scanned": 1768633708.064503,
+        "pro_ai_karma": 5
+      },
+      "ShengrenR": {
+        "last_scanned": 1768634369.678728,
+        "pro_ai_karma": 148
+      },
+      "freshbaileys": {
+        "last_scanned": 1768635062.059655,
+        "pro_ai_karma": 8
+      },
+      "FableFinale": {
+        "last_scanned": 1768635521.979472,
+        "pro_ai_karma": 258
+      },
+      "csppr": {
+        "last_scanned": 1768635952.071682,
+        "pro_ai_karma": 34
+      },
+      "Illustrious_Grade608": {
+        "last_scanned": 1768636370.950667,
+        "pro_ai_karma": 28
+      },
+      "silentbutmedly": {
+        "last_scanned": 1768636758.224922,
+        "pro_ai_karma": 3
+      },
+      "Borkato": {
+        "last_scanned": 1768637512.38532,
+        "pro_ai_karma": 48
+      },
+      "LookAtYourEyes": {
+        "last_scanned": 1768638299.071437,
+        "pro_ai_karma": 1
+      },
+      "DM_KITTY_PICS": {
+        "last_scanned": 1768639137.263279,
+        "pro_ai_karma": 385
+      },
+      "redit_powrhungrymods": {
+        "last_scanned": 1768639779.363128,
+        "pro_ai_karma": 1
+      },
+      "Milumet": {
+        "last_scanned": 1768640267.247451,
+        "pro_ai_karma": -6
+      },
+      "ittrut": {
+        "last_scanned": 1768640843.884003,
+        "pro_ai_karma": 93
+      },
+      "Full_Ad_1706": {
+        "last_scanned": 1768641517.069818,
+        "pro_ai_karma": 3
+      },
+      "ginger_gcups": {
+        "last_scanned": 1768642274.417527,
+        "pro_ai_karma": 447
+      },
+      "PolychromeMan": {
+        "last_scanned": 1768642798.021625,
+        "pro_ai_karma": 723
+      },
+      "R0bot101": {
+        "last_scanned": 1768643238.96954,
+        "pro_ai_karma": 1
+      },
+      "The-Iliah-Code": {
+        "last_scanned": 1768643626.676001,
+        "pro_ai_karma": 1142
+      },
+      "iamthesam2": {
+        "last_scanned": 1768643988.339291,
+        "pro_ai_karma": 30
+      },
+      "CultureContent8525": {
+        "last_scanned": 1768644582.098859,
+        "pro_ai_karma": 1
+      },
+      "C-levelgeek": {
+        "last_scanned": 1768645297.702337,
+        "pro_ai_karma": 12
+      },
+      "Still_Piccolo_7448": {
+        "last_scanned": 1768646081.029818,
+        "pro_ai_karma": -1
+      },
+      "deezwhatbro": {
+        "last_scanned": 1768646661.261033,
+        "pro_ai_karma": 3
+      },
+      "Katten_elvis": {
+        "last_scanned": 1768647108.589465,
+        "pro_ai_karma": 7
+      },
+      "Practical-Rub-1190": {
+        "last_scanned": 1768647498.97371,
+        "pro_ai_karma": 191
+      },
+      "nonquitt": {
+        "last_scanned": 1768648027.611455,
+        "pro_ai_karma": 44
+      },
+      "mazdarx2001": {
+        "last_scanned": 1768648675.241338,
+        "pro_ai_karma": 63
+      },
+      "Majestic-Coat3855": {
+        "last_scanned": 1768649282.655959,
+        "pro_ai_karma": 39
+      },
+      "Technical_You4632": {
+        "last_scanned": 1768649733.058941,
+        "pro_ai_karma": 309
+      },
+      "Cheeslord2": {
+        "last_scanned": 1768650186.986859,
+        "pro_ai_karma": 10
+      },
+      "arckeid": {
+        "last_scanned": 1768650584.101257,
+        "pro_ai_karma": 82
+      },
+      "quiksilver10152": {
+        "last_scanned": 1768650993.95221,
+        "pro_ai_karma": 43
+      },
+      "adapava": {
+        "last_scanned": 1768651646.086918,
+        "pro_ai_karma": 9
+      },
+      "LegionsOmen": {
+        "last_scanned": 1768652458.617068,
+        "pro_ai_karma": 2522
+      },
+      "tomvorlostriddle": {
+        "last_scanned": 1768653476.35647,
+        "pro_ai_karma": 38
+      },
+      "TheAndyGeorge": {
+        "last_scanned": 1768654721.174913,
+        "pro_ai_karma": 8
+      },
+      "cc24994": {
+        "last_scanned": 1768655754.96414,
+        "pro_ai_karma": 1
+      },
+      "_tolm_": {
+        "last_scanned": 1768656672.598715,
+        "pro_ai_karma": 3
+      },
+      "doubler82": {
+        "last_scanned": 1768657361.689389,
+        "pro_ai_karma": -1
+      },
+      "NuncProFunc": {
+        "last_scanned": 1768657872.379358,
+        "pro_ai_karma": 8
+      },
+      "Extension_Arugula157": {
+        "last_scanned": 1768658240.581635,
+        "pro_ai_karma": 234
+      },
+      "dude0001": {
+        "last_scanned": 1768658752.425614,
+        "pro_ai_karma": 1
+      },
+      "Key-Assumption5189": {
+        "last_scanned": 1768659375.122203,
+        "pro_ai_karma": 98
+      },
+      "J0ats": {
+        "last_scanned": 1768660140.837337,
+        "pro_ai_karma": 597
+      },
+      "jarkkowork": {
+        "last_scanned": 1768660751.559126,
+        "pro_ai_karma": 1
+      },
+      "MightyPupil69": {
+        "last_scanned": 1768661264.078104,
+        "pro_ai_karma": 260
+      },
+      "SpyvsMerc": {
+        "last_scanned": 1768661649.135972,
+        "pro_ai_karma": 31
+      },
+      "awesomeusername2w": {
+        "last_scanned": 1768662051.933313,
+        "pro_ai_karma": 1
+      },
+      "SittingByTheFirePit": {
+        "last_scanned": 1768662585.87497,
+        "pro_ai_karma": 24
+      },
+      "Revsnite": {
+        "last_scanned": 1768663270.673301,
+        "pro_ai_karma": 24
+      },
+      "ReneMagritte98": {
+        "last_scanned": 1768663921.156056,
+        "pro_ai_karma": 27
+      },
+      "Interfpals": {
+        "last_scanned": 1768664471.4132,
+        "pro_ai_karma": 19
+      },
+      "kennytherenny": {
+        "last_scanned": 1768664891.134686,
+        "pro_ai_karma": 89
+      },
+      "Dark-grey": {
+        "last_scanned": 1768665270.359034,
+        "pro_ai_karma": 146
+      },
+      "capnshanty": {
+        "last_scanned": 1768665670.925081,
+        "pro_ai_karma": 0
+      },
+      "Wrong_Necessary3631": {
+        "last_scanned": 1768666270.723031,
+        "pro_ai_karma": 1
+      },
+      "Intelligent-Rule-397": {
+        "last_scanned": 1768666993.228029,
+        "pro_ai_karma": -11
+      },
+      "torrid-winnowing": {
+        "last_scanned": 1768667775.092286,
+        "pro_ai_karma": 420
+      },
+      "kllinzy": {
+        "last_scanned": 1768668412.350043,
+        "pro_ai_karma": 32
+      },
+      "Dramatic-Resolution5": {
+        "last_scanned": 1768668884.904425,
+        "pro_ai_karma": 1
+      },
+      "Waste-Drawing5057": {
+        "last_scanned": 1768669272.767813,
+        "pro_ai_karma": 100
+      },
+      "TheSn00pster": {
+        "last_scanned": 1768669843.889737,
+        "pro_ai_karma": 100
+      },
+      "gbomb13": {
+        "last_scanned": 1768670504.949397,
+        "pro_ai_karma": 1063
+      },
+      "ASimpForChaeryeong": {
+        "last_scanned": 1768671114.965683,
+        "pro_ai_karma": 12
+      },
+      "VoDoka": {
+        "last_scanned": 1768671618.040061,
+        "pro_ai_karma": 34
+      },
+      "Matshelge": {
+        "last_scanned": 1768672030.875543,
+        "pro_ai_karma": 194
+      },
+      "Sams_Antics": {
+        "last_scanned": 1768672420.582072,
+        "pro_ai_karma": 23
+      },
+      "Far_Raspberry_4375": {
+        "last_scanned": 1768672831.552313,
+        "pro_ai_karma": 12
+      },
+      "snowsayer": {
+        "last_scanned": 1768673576.497574,
+        "pro_ai_karma": 0
+      },
+      "peripheralx23": {
+        "last_scanned": 1768674408.184985,
+        "pro_ai_karma": -1
+      },
+      "ConcussionCrow": {
+        "last_scanned": 1768675338.320596,
+        "pro_ai_karma": 22
+      },
+      "Conflictingview": {
+        "last_scanned": 1768675971.60845,
+        "pro_ai_karma": 9
+      },
+      "BornConcentrate5571": {
+        "last_scanned": 1768676400.637499,
+        "pro_ai_karma": 1
+      },
+      "Soi_Boi_13": {
+        "last_scanned": 1768676945.165257,
+        "pro_ai_karma": 36
+      },
+      "FairYesterday8490": {
+        "last_scanned": 1768677577.653275,
+        "pro_ai_karma": 6
+      },
+      "Far_Statistician1479": {
+        "last_scanned": 1768678079.15209,
+        "pro_ai_karma": 1
+      },
+      "FoxBenedict": {
+        "last_scanned": 1768678529.67442,
+        "pro_ai_karma": 201
+      },
+      "Wizzard_2025": {
+        "last_scanned": 1768678964.654429,
+        "pro_ai_karma": 17
+      },
+      "Speaker-Fabulous": {
+        "last_scanned": 1768679356.584572,
+        "pro_ai_karma": 384
+      },
+      "ChloeNow": {
+        "last_scanned": 1768679756.261252,
+        "pro_ai_karma": 112
+      },
+      "Kualityy": {
+        "last_scanned": 1768680263.80011,
+        "pro_ai_karma": 6
+      },
+      "maniloona": {
+        "last_scanned": 1768680907.754703,
+        "pro_ai_karma": 5
+      },
+      "Fresh_Dog4602": {
+        "last_scanned": 1768681722.913959,
+        "pro_ai_karma": 2
+      },
+      "Yama951": {
+        "last_scanned": 1768682355.097642,
+        "pro_ai_karma": 83
+      },
+      "SuddenBasil7039": {
+        "last_scanned": 1768682845.598987,
+        "pro_ai_karma": 3
+      },
+      "Jo_H_Nathan": {
+        "last_scanned": 1768683281.92556,
+        "pro_ai_karma": 329
+      },
+      "JamR_711111": {
+        "last_scanned": 1768683676.216727,
+        "pro_ai_karma": 1197
+      },
+      "Temporary-Cicada-392": {
+        "last_scanned": 1768684265.237589,
+        "pro_ai_karma": 29
+      },
+      "DevilDjinn": {
+        "last_scanned": 1768684922.806005,
+        "pro_ai_karma": 10
+      },
+      "vid_icarus": {
+        "last_scanned": 1768685496.750412,
+        "pro_ai_karma": 14
+      },
+      "The_Axumite": {
+        "last_scanned": 1768685968.793703,
+        "pro_ai_karma": -16
+      },
+      "0xC4FF3": {
+        "last_scanned": 1768686400.097012,
+        "pro_ai_karma": 3
+      },
+      "Playful_Parsnip_7744": {
+        "last_scanned": 1768686783.472157,
+        "pro_ai_karma": 665
+      },
+      "oh_no_the_claw": {
+        "last_scanned": 1768687152.826389,
+        "pro_ai_karma": 5
+      },
+      "bastardsoftheyoung": {
+        "last_scanned": 1768687739.060995,
+        "pro_ai_karma": 249
+      },
+      "Cpt_Picardk98": {
+        "last_scanned": 1768688457.095051,
+        "pro_ai_karma": 13
+      },
+      "faen_du_sa": {
+        "last_scanned": 1768689176.596898,
+        "pro_ai_karma": 32
+      },
+      "tormenteddragon": {
+        "last_scanned": 1768689736.815139,
+        "pro_ai_karma": 3
+      },
+      "Anxious-Alps-8667": {
+        "last_scanned": 1768690210.227239,
+        "pro_ai_karma": 334
+      },
+      "HandakinSkyjerker": {
+        "last_scanned": 1768690615.808287,
+        "pro_ai_karma": 36
+      },
+      "michaelsoft__binbows": {
+        "last_scanned": 1768691148.826985,
+        "pro_ai_karma": 4
+      },
+      "bigasswhitegirl": {
+        "last_scanned": 1768691794.883115,
+        "pro_ai_karma": 139
+      },
+      "RainbowSovietPagan": {
+        "last_scanned": 1768692515.027175,
+        "pro_ai_karma": -2
+      },
+      "Grocery-Grouchy": {
+        "last_scanned": 1768693052.920993,
+        "pro_ai_karma": 1
+      },
+      "duncan1234-": {
+        "last_scanned": 1768693526.165205,
+        "pro_ai_karma": 0
+      },
+      "Agitated-Cell5938": {
+        "last_scanned": 1768693898.202221,
+        "pro_ai_karma": 1476
+      },
+      "SonderEber": {
+        "last_scanned": 1768694302.862469,
+        "pro_ai_karma": 83
+      },
+      "onyxengine": {
+        "last_scanned": 1768696865.850079,
+        "pro_ai_karma": 3
+      },
+      "Quentin__Tarantulino": {
+        "last_scanned": 1768698558.105515,
+        "pro_ai_karma": 112
+      },
+      "Healthy_Razzmatazz38": {
+        "last_scanned": 1768701077.256991,
+        "pro_ai_karma": 71
+      },
+      "phaedrux_pharo": {
+        "last_scanned": 1768704077.034645,
+        "pro_ai_karma": 62
+      },
+      "DumboVanBeethoven": {
+        "last_scanned": 1768706579.530401,
+        "pro_ai_karma": 66
+      },
+      "EthanJHurst": {
+        "last_scanned": 1768708556.924219,
+        "pro_ai_karma": 1256
+      },
+      "Nez_Coupe": {
+        "last_scanned": 1768709963.690499,
+        "pro_ai_karma": 39
+      },
+      "garden_of_steak": {
+        "last_scanned": 1768711037.916819,
+        "pro_ai_karma": 2
+      },
+      "super_slimey00": {
+        "last_scanned": 1768712030.772174,
+        "pro_ai_karma": 58
+      },
+      "Gubzs": {
+        "last_scanned": 1768712608.567745,
+        "pro_ai_karma": 626
+      },
+      "Atomic-Avocado": {
+        "last_scanned": 1768713260.557995,
+        "pro_ai_karma": 11
+      },
+      "weltvonalex": {
+        "last_scanned": 1768714068.512298,
+        "pro_ai_karma": 0
+      },
+      "TronIsMyCat": {
+        "last_scanned": 1768714874.767945,
+        "pro_ai_karma": 0
+      },
+      "kabooozie": {
+        "last_scanned": 1768715393.074013,
+        "pro_ai_karma": 3
+      },
+      "gthing": {
+        "last_scanned": 1768715822.705607,
+        "pro_ai_karma": 42
+      },
+      "Joseangel_sc": {
+        "last_scanned": 1768716468.100311,
+        "pro_ai_karma": 6
+      },
+      "Neither-Phone-7264": {
+        "last_scanned": 1768717248.408075,
+        "pro_ai_karma": 83
+      },
+      "WorthMassive8132": {
+        "last_scanned": 1768718195.454534,
+        "pro_ai_karma": -42
+      },
+      "Conscious-Fault4925": {
+        "last_scanned": 1768719074.852274,
+        "pro_ai_karma": 2
+      },
+      "spreadlove5683": {
+        "last_scanned": 1768719581.796037,
+        "pro_ai_karma": 66
+      },
+      "BigFatM8": {
+        "last_scanned": 1768720275.310633,
+        "pro_ai_karma": 21
+      },
+      "LeftBullTesty": {
+        "last_scanned": 1768720934.500961,
+        "pro_ai_karma": 31
+      },
+      "RevolverMFOcelot": {
+        "last_scanned": 1768721557.535387,
+        "pro_ai_karma": 189
+      },
+      "imnota4": {
+        "last_scanned": 1768722075.549145,
+        "pro_ai_karma": 36
+      },
+      "Human-number-579": {
+        "last_scanned": 1768722476.573202,
+        "pro_ai_karma": 5
+      },
+      "arjuna66671": {
+        "last_scanned": 1768722893.555916,
+        "pro_ai_karma": 18
+      },
+      "Chr1sUK": {
+        "last_scanned": 1768723275.229071,
+        "pro_ai_karma": 79
+      },
+      "Soggy-Ball-577": {
+        "last_scanned": 1768723947.741646,
+        "pro_ai_karma": 142
+      },
+      "sspiegel": {
+        "last_scanned": 1768724754.050616,
+        "pro_ai_karma": -15
+      },
+      "InertialLaunchSystem": {
+        "last_scanned": 1768725592.818555,
+        "pro_ai_karma": 235
+      },
+      "Strong-Solution-1009": {
+        "last_scanned": 1768726275.170494,
+        "pro_ai_karma": 5
+      },
+      "OrthogonalPotato": {
+        "last_scanned": 1768726720.029498,
+        "pro_ai_karma": 2
+      },
+      "Crazy_Crayfish_": {
+        "last_scanned": 1768727382.029017,
+        "pro_ai_karma": 199
+      },
+      "lopgir": {
+        "last_scanned": 1768728108.53254,
+        "pro_ai_karma": 212
+      },
+      "AllGasNoBrakes420": {
+        "last_scanned": 1768728798.697035,
+        "pro_ai_karma": 4
+      },
+      "ArgumentAny4365": {
+        "last_scanned": 1768729341.329425,
+        "pro_ai_karma": -8
+      },
+      "MoolahMeister": {
+        "last_scanned": 1768729823.842324,
+        "pro_ai_karma": 1
+      },
+      "Cool-Habit-3275": {
+        "last_scanned": 1768730183.639317,
+        "pro_ai_karma": 0
+      },
+      "Int_GS": {
+        "last_scanned": 1768730680.597832,
+        "pro_ai_karma": -7
+      },
+      "Deciheximal144": {
+        "last_scanned": 1768731338.644682,
+        "pro_ai_karma": 26
+      },
+      "LightProductions": {
+        "last_scanned": 1768732159.971298,
+        "pro_ai_karma": 4
+      },
+      "CoC_Axis_of_Evil": {
+        "last_scanned": 1768732875.472863,
+        "pro_ai_karma": -23
+      },
+      "Ashley_Sophia": {
+        "last_scanned": 1768733365.317465,
+        "pro_ai_karma": 23
+      },
+      "rambouhh": {
+        "last_scanned": 1768733724.338625,
+        "pro_ai_karma": 28
+      },
+      "ThreeKiloZero": {
+        "last_scanned": 1768734168.033622,
+        "pro_ai_karma": 153
+      },
+      "Buck-Nasty": {
+        "last_scanned": 1768734735.92902,
+        "pro_ai_karma": 1782
+      },
+      "tahitisam": {
+        "last_scanned": 1768735425.79484,
+        "pro_ai_karma": 12
+      },
+      "Due_Sweet_9500": {
+        "last_scanned": 1768735906.459144,
+        "pro_ai_karma": 69
+      },
+      "ReturnAfraid5998": {
+        "last_scanned": 1768736361.581335,
+        "pro_ai_karma": 1
+      },
+      "kra73ace": {
+        "last_scanned": 1768736761.560519,
+        "pro_ai_karma": -8
+      },
+      "Awkward-Contact6102": {
+        "last_scanned": 1768737159.713726,
+        "pro_ai_karma": -2
+      },
+      "_Nimblefingers_": {
+        "last_scanned": 1768737545.235618,
+        "pro_ai_karma": 206
+      },
+      "VoidAndOcean": {
+        "last_scanned": 1768738525.252144,
+        "pro_ai_karma": 230
+      },
+      "mop_bucket_bingo": {
+        "last_scanned": 1768739474.821466,
+        "pro_ai_karma": 24
+      },
+      "Crucco": {
+        "last_scanned": 1768740743.865505,
+        "pro_ai_karma": 127
+      },
+      "RequirementGold9083": {
+        "last_scanned": 1768741725.341205,
+        "pro_ai_karma": 9
+      },
+      "Ecstatic-Run-9767": {
+        "last_scanned": 1768742545.12447,
+        "pro_ai_karma": 2
+      },
+      "itsjusthenightonight": {
+        "last_scanned": 1768743434.527527,
+        "pro_ai_karma": 0
+      },
+      "robHalifax": {
+        "last_scanned": 1768744045.652029,
+        "pro_ai_karma": 68
+      },
+      "Wasteak": {
+        "last_scanned": 1768744464.157752,
+        "pro_ai_karma": 48
+      },
+      "Legitimate-Arm9438": {
+        "last_scanned": 1768744874.63466,
+        "pro_ai_karma": 650
+      },
+      "FxManiac01": {
+        "last_scanned": 1768745474.284245,
+        "pro_ai_karma": 1
+      },
+      "Radingod1": {
+        "last_scanned": 1768746140.773209,
+        "pro_ai_karma": -1
+      },
+      "limezest128": {
+        "last_scanned": 1768746793.455682,
+        "pro_ai_karma": 11
+      },
+      "gui_zombie": {
+        "last_scanned": 1768747324.881982,
+        "pro_ai_karma": -1
+      },
+      "ethotopia": {
+        "last_scanned": 1768747764.432896,
+        "pro_ai_karma": 1526
+      },
+      "surrogate_uprising": {
+        "last_scanned": 1768748162.785852,
+        "pro_ai_karma": 13
+      },
+      "HeinrichTheWolf_17": {
+        "last_scanned": 1768748645.41253,
+        "pro_ai_karma": 6503
+      },
+      "Inevitable_Tea_5841": {
+        "last_scanned": 1768749277.897989,
+        "pro_ai_karma": 213
+      },
+      "willseagull": {
+        "last_scanned": 1768750052.41565,
+        "pro_ai_karma": 2
+      },
+      "AllergicIdiotDtector": {
+        "last_scanned": 1768750597.950398,
+        "pro_ai_karma": -4
+      },
+      "magicduck": {
+        "last_scanned": 1768751126.729794,
+        "pro_ai_karma": 263
+      },
+      "wi_2": {
+        "last_scanned": 1768751529.236674,
+        "pro_ai_karma": 68
+      },
+      "fakintheid": {
+        "last_scanned": 1768751900.636356,
+        "pro_ai_karma": -1
+      },
+      "Shuppogaki": {
+        "last_scanned": 1768752533.7272,
+        "pro_ai_karma": 6
+      },
+      "Whyamibeautiful": {
+        "last_scanned": 1768753275.066855,
+        "pro_ai_karma": 11
+      },
+      "DanielKramer_": {
+        "last_scanned": 1768754163.684801,
+        "pro_ai_karma": 67
+      },
+      "Alive_Awareness4075": {
+        "last_scanned": 1768754792.125294,
+        "pro_ai_karma": 410
+      },
+      "Forward-Business-176": {
+        "last_scanned": 1768755293.142506,
+        "pro_ai_karma": 3
+      },
+      "Trick-Bench-4122": {
+        "last_scanned": 1768755717.681306,
+        "pro_ai_karma": 6
+      },
+      "Secret-Collar-1941": {
+        "last_scanned": 1768756285.26873,
+        "pro_ai_karma": -6
+      },
+      "hhioh": {
+        "last_scanned": 1768757024.929422,
+        "pro_ai_karma": 1
+      },
+      "Usernate25": {
+        "last_scanned": 1768757628.748636,
+        "pro_ai_karma": 1
+      },
+      "Ksorkrax": {
+        "last_scanned": 1768758153.229857,
+        "pro_ai_karma": 27
+      },
+      "buff_samurai": {
+        "last_scanned": 1768758595.53846,
+        "pro_ai_karma": 51
+      },
+      "LavisAlex": {
+        "last_scanned": 1768758991.703469,
+        "pro_ai_karma": -3
+      },
+      "eflat123": {
+        "last_scanned": 1768759589.023058,
+        "pro_ai_karma": 177
+      },
+      "IntroducingTongs": {
+        "last_scanned": 1768760297.223416,
+        "pro_ai_karma": 5
+      },
+      "Throwaway-4230984": {
+        "last_scanned": 1768761223.485239,
+        "pro_ai_karma": 2
+      },
+      "memproc": {
+        "last_scanned": 1768761984.88445,
+        "pro_ai_karma": 3
+      },
+      "fun__friday": {
+        "last_scanned": 1768762514.321632,
+        "pro_ai_karma": -1
+      },
+      "vovap_vovap": {
+        "last_scanned": 1768762916.170246,
+        "pro_ai_karma": 19
+      },
+      "AsyncVibes": {
+        "last_scanned": 1768763475.567725,
+        "pro_ai_karma": 108
+      },
+      "Tolopono": {
+        "last_scanned": 1768764166.098667,
+        "pro_ai_karma": 546
+      },
+      "Technical-Row8333": {
+        "last_scanned": 1768764674.483618,
+        "pro_ai_karma": 38
+      },
+      "Suitable-Rhubarb2712": {
+        "last_scanned": 1768765077.49131,
+        "pro_ai_karma": 4
+      },
+      "n4s0": {
+        "last_scanned": 1768765491.400525,
+        "pro_ai_karma": 35
+      },
+      "Redararis": {
+        "last_scanned": 1768765902.573045,
+        "pro_ai_karma": 153
+      },
+      "Sea-Shoe3287": {
+        "last_scanned": 1768766253.201455,
+        "pro_ai_karma": 2
+      },
+      "Beautiful_Claim4911": {
+        "last_scanned": 1768766862.531453,
+        "pro_ai_karma": 1
+      },
+      "anor_wondo": {
+        "last_scanned": 1768767565.495769,
+        "pro_ai_karma": 81
+      },
+      "Infinitecontextlabs": {
+        "last_scanned": 1768768414.290351,
+        "pro_ai_karma": 1
+      },
+      "Wind_Best_1440": {
+        "last_scanned": 1768768998.355093,
+        "pro_ai_karma": 1
+      },
+      "GnistAI": {
+        "last_scanned": 1768769910.680358,
+        "pro_ai_karma": 386
+      },
+      "Empty-Recognition-84": {
+        "last_scanned": 1768770402.409559,
+        "pro_ai_karma": 2
+      },
+      "Glittering-Neck-2505": {
+        "last_scanned": 1768771809.51242,
+        "pro_ai_karma": 1946
+      },
+      "Gaiden206": {
+        "last_scanned": 1768772685.884061,
+        "pro_ai_karma": 20
+      },
+      "Sycosplat": {
+        "last_scanned": 1768773088.568672,
+        "pro_ai_karma": 549
+      },
+      "MadCervantes": {
+        "last_scanned": 1768773489.493311,
+        "pro_ai_karma": -5
+      },
+      "Hot-Competition-4245": {
+        "last_scanned": 1768774090.960818,
+        "pro_ai_karma": 69
+      },
+      "NoWayYesWayMaybeWay": {
+        "last_scanned": 1768774766.790978,
+        "pro_ai_karma": 10
+      },
+      "SherbertMindless8205": {
+        "last_scanned": 1768775534.16126,
+        "pro_ai_karma": 15
+      },
+      "GlbdS": {
+        "last_scanned": 1768776111.625078,
+        "pro_ai_karma": 7
+      },
+      "apokrif1": {
+        "last_scanned": 1768776614.452688,
+        "pro_ai_karma": 1
+      },
+      "weespat": {
+        "last_scanned": 1768777017.43936,
+        "pro_ai_karma": 31
+      },
+      "YakFull8300": {
+        "last_scanned": 1768777554.545866,
+        "pro_ai_karma": 18
+      },
+      "Cookie-Brown": {
+        "last_scanned": 1768778217.379999,
+        "pro_ai_karma": 17
+      },
+      "SoupDue6629": {
+        "last_scanned": 1768778951.269396,
+        "pro_ai_karma": 1
+      },
+      "buildxjordan": {
+        "last_scanned": 1768779501.204002,
+        "pro_ai_karma": 7
+      },
+      "Metalmaxm": {
+        "last_scanned": 1768779990.752291,
+        "pro_ai_karma": 308
+      },
+      "Correct_Mistake2640": {
+        "last_scanned": 1768780397.113286,
+        "pro_ai_karma": 126
+      },
+      "smulfragPL": {
+        "last_scanned": 1768780780.956891,
+        "pro_ai_karma": 16
+      },
+      "MC897": {
+        "last_scanned": 1768783378.024114,
+        "pro_ai_karma": 581
+      },
+      "Espo-sito": {
+        "last_scanned": 1768785169.564526,
+        "pro_ai_karma": 4
+      },
+      "dark_negan": {
+        "last_scanned": 1768787756.731474,
+        "pro_ai_karma": 563
+      },
+      "messyp": {
+        "last_scanned": 1768790716.480858,
+        "pro_ai_karma": 9
+      },
+      "Brilliant-Volume-497": {
+        "last_scanned": 1768793251.267647,
+        "pro_ai_karma": 0
+      },
+      "Vo_Mimbre": {
+        "last_scanned": 1768795366.532819,
+        "pro_ai_karma": 203
+      },
+      "SnooPeanuts7890": {
+        "last_scanned": 1768797115.658767,
+        "pro_ai_karma": 11
+      },
+      "Unique_Ad9943": {
+        "last_scanned": 1768798491.427031,
+        "pro_ai_karma": 512
+      },
+      "hitanthrope": {
+        "last_scanned": 1768799351.783911,
+        "pro_ai_karma": 4
+      },
+      "R33v3n": {
+        "last_scanned": 1768800193.934837,
+        "pro_ai_karma": 2349
+      },
+      "brober93": {
+        "last_scanned": 1768801191.789885,
+        "pro_ai_karma": 1
+      },
+      "riceandcashews": {
+        "last_scanned": 1768801980.540202,
+        "pro_ai_karma": 173
+      },
+      "Fit_Coast_1947": {
+        "last_scanned": 1768802504.73843,
+        "pro_ai_karma": 42
+      },
+      "Substantial_Ear_1131": {
+        "last_scanned": 1768803556.746532,
+        "pro_ai_karma": 51
+      },
+      "kaisadilla_": {
+        "last_scanned": 1768804585.825392,
+        "pro_ai_karma": 3
+      },
+      "TenshouYoku": {
+        "last_scanned": 1768805798.552,
+        "pro_ai_karma": 60
+      },
+      "roz303": {
+        "last_scanned": 1768806701.066922,
+        "pro_ai_karma": 303
+      },
+      "Extreme-Outrageous": {
+        "last_scanned": 1768807527.492441,
+        "pro_ai_karma": 2
+      },
+      "FeistyGanache56": {
+        "last_scanned": 1768808430.678449,
+        "pro_ai_karma": 141
+      },
+      "oboshoe": {
+        "last_scanned": 1768809072.146287,
+        "pro_ai_karma": 2
+      },
+      "antbates": {
+        "last_scanned": 1768809549.171,
+        "pro_ai_karma": 25
+      },
+      "Nekileo": {
+        "last_scanned": 1768810542.192968,
+        "pro_ai_karma": 15
+      },
+      "everyday847": {
+        "last_scanned": 1768811473.415064,
+        "pro_ai_karma": 23
+      },
+      "ZealousidealTurn218": {
+        "last_scanned": 1768812568.961379,
+        "pro_ai_karma": 1
+      },
+      "Willing_Dependent_43": {
+        "last_scanned": 1768813334.487089,
+        "pro_ai_karma": 54
+      },
+      "fenisgold": {
+        "last_scanned": 1768814317.019249,
+        "pro_ai_karma": 607
+      },
+      "KaleidoscopeFar658": {
+        "last_scanned": 1768815318.710914,
+        "pro_ai_karma": 44
+      },
+      "wainbros66": {
+        "last_scanned": 1768816271.995881,
+        "pro_ai_karma": 6
+      },
+      "Astral65": {
+        "last_scanned": 1768816885.26507,
+        "pro_ai_karma": 1
+      },
+      "AcceptableReason1380": {
+        "last_scanned": 1768817683.416557,
+        "pro_ai_karma": 5
+      },
+      "Apprehensive-Golf-95": {
+        "last_scanned": 1768818572.174222,
+        "pro_ai_karma": 1
+      },
+      "pigeon57434": {
+        "last_scanned": 1768819600.725091,
+        "pro_ai_karma": 4317
+      },
+      "jabblack": {
+        "last_scanned": 1768820264.230427,
+        "pro_ai_karma": 4
+      },
+      "Dangerous-Eye-215": {
+        "last_scanned": 1768820959.537235,
+        "pro_ai_karma": 29
+      },
+      "Plus-Glove-4850": {
+        "last_scanned": 1768821671.911865,
+        "pro_ai_karma": -7
+      },
+      "sheriffderek": {
+        "last_scanned": 1768822445.131127,
+        "pro_ai_karma": 37
+      },
+      "doggie-treats": {
+        "last_scanned": 1768822994.454974,
+        "pro_ai_karma": 7
+      },
+      "Wiskersthefif": {
+        "last_scanned": 1768823503.047778,
+        "pro_ai_karma": 5
+      },
+      "secretaliasname": {
+        "last_scanned": 1768823912.740464,
+        "pro_ai_karma": -2
+      },
+      "UncarvedWood": {
+        "last_scanned": 1768825028.639952,
+        "pro_ai_karma": 4
+      },
+      "SnooPuppers3957": {
+        "last_scanned": 1768826060.772303,
+        "pro_ai_karma": 68
+      },
+      "ppapsans": {
+        "last_scanned": 1768827476.157871,
+        "pro_ai_karma": 940
+      },
+      "SnooBooks7516": {
+        "last_scanned": 1768828966.009091,
+        "pro_ai_karma": 1
+      },
+      "cloud_sec_guy": {
+        "last_scanned": 1768830144.598209,
+        "pro_ai_karma": 112
+      },
+      "Grand_Army1127": {
+        "last_scanned": 1768831078.285345,
+        "pro_ai_karma": 36
+      },
+      "nevernovelty": {
+        "last_scanned": 1768831967.471164,
+        "pro_ai_karma": 9
+      },
+      "Previous-Surprise-36": {
+        "last_scanned": 1768832794.76119,
+        "pro_ai_karma": 537
+      },
+      "dogesator": {
+        "last_scanned": 1768833745.285989,
+        "pro_ai_karma": 349
+      },
+      "katbyte": {
+        "last_scanned": 1768834521.979571,
+        "pro_ai_karma": 0
+      },
+      "piponwa": {
+        "last_scanned": 1768835055.771038,
+        "pro_ai_karma": 284
+      },
+      "dumquestions": {
+        "last_scanned": 1768835738.549955,
+        "pro_ai_karma": 45
+      },
+      "forthejungle": {
+        "last_scanned": 1768836645.571113,
+        "pro_ai_karma": 18
+      },
+      "Romanian_": {
+        "last_scanned": 1768837438.133184,
+        "pro_ai_karma": 28
+      },
+      "Forsaken_Ad_774": {
+        "last_scanned": 1768838048.032186,
+        "pro_ai_karma": -5
+      },
+      "manoman42": {
+        "last_scanned": 1768838516.17107,
+        "pro_ai_karma": -5
+      },
+      "AEONlC": {
+        "last_scanned": 1768839213.25556,
+        "pro_ai_karma": 8
+      },
+      "Rain_On": {
+        "last_scanned": 1768840065.638804,
+        "pro_ai_karma": 393
+      },
+      "ProgrammerForsaken45": {
+        "last_scanned": 1768841125.305846,
+        "pro_ai_karma": 122
+      },
+      "AnnualAdventurous169": {
+        "last_scanned": 1768841905.788786,
+        "pro_ai_karma": 1
+      },
+      "Ok-Ant6718": {
+        "last_scanned": 1768842669.7531,
+        "pro_ai_karma": 5
+      },
+      "tat_tvam_asshole": {
+        "last_scanned": 1768843396.890469,
+        "pro_ai_karma": 28
+      },
+      "philosarapter": {
+        "last_scanned": 1768844225.388283,
+        "pro_ai_karma": 1
+      },
+      "frostedpuzzle": {
+        "last_scanned": 1768844880.195765,
+        "pro_ai_karma": 117
+      },
+      "fxj": {
+        "last_scanned": 1768845369.893143,
+        "pro_ai_karma": -6
+      },
+      "TobioOkuma1": {
+        "last_scanned": 1768845900.615772,
+        "pro_ai_karma": 0
+      },
+      "TheBurningQuill": {
+        "last_scanned": 1768846619.920117,
+        "pro_ai_karma": -2
+      },
+      "myzhidmad": {
+        "last_scanned": 1768847551.828743,
+        "pro_ai_karma": 6
+      },
+      "No7Again11": {
+        "last_scanned": 1768848553.050771,
+        "pro_ai_karma": 2
+      },
+      "LaCaipirinha": {
+        "last_scanned": 1768849200.032724,
+        "pro_ai_karma": 9
+      },
+      "SerdarCS": {
+        "last_scanned": 1768849867.740193,
+        "pro_ai_karma": 3
+      },
+      "IM_INSIDE_YOUR_HOUSE": {
+        "last_scanned": 1768850549.396209,
+        "pro_ai_karma": 32
+      },
+      "enigmatic_erudition": {
+        "last_scanned": 1768851131.600464,
+        "pro_ai_karma": 331
+      },
+      "Amaskingrey": {
+        "last_scanned": 1768851670.767371,
+        "pro_ai_karma": 144
+      },
+      "dubblies": {
+        "last_scanned": 1768852087.109151,
+        "pro_ai_karma": 29
+      },
+      "squired": {
+        "last_scanned": 1768852492.420827,
+        "pro_ai_karma": 311
+      },
+      "EclecticAcuity": {
+        "last_scanned": 1768852909.134092,
+        "pro_ai_karma": 21
+      },
+      "AdjectiveNoun4827": {
+        "last_scanned": 1768853513.08837,
+        "pro_ai_karma": 2
+      },
+      "Disastrous_Purpose22": {
+        "last_scanned": 1768854280.736759,
+        "pro_ai_karma": -7
+      },
+      "Klutzy-Snow8016": {
+        "last_scanned": 1768855034.027292,
+        "pro_ai_karma": 87
+      },
+      "Charming_Hall7694": {
+        "last_scanned": 1768855633.468258,
+        "pro_ai_karma": 0
+      },
+      "OkFly3388": {
+        "last_scanned": 1768856134.204119,
+        "pro_ai_karma": 17
+      },
+      "Simple-Constant3791": {
+        "last_scanned": 1768856591.187827,
+        "pro_ai_karma": 0
+      },
+      "proceedings_effects": {
+        "last_scanned": 1768857208.217192,
+        "pro_ai_karma": 532
+      },
+      "kizuv": {
+        "last_scanned": 1768858607.003089,
+        "pro_ai_karma": 120
+      },
+      "After-Asparagus5840": {
+        "last_scanned": 1768859108.293831,
+        "pro_ai_karma": 5
+      },
+      "Logical-Web-3813": {
+        "last_scanned": 1768859540.828015,
+        "pro_ai_karma": -1
+      },
+      "rc_ym": {
+        "last_scanned": 1768859929.340427,
+        "pro_ai_karma": 0
+      },
+      "echoGroot": {
+        "last_scanned": 1768860577.580154,
+        "pro_ai_karma": 6
+      },
+      "Due-Tangelo-8704": {
+        "last_scanned": 1768861312.166376,
+        "pro_ai_karma": -1
+      },
+      "Tomi97_origin": {
+        "last_scanned": 1768862113.358152,
+        "pro_ai_karma": 2
+      },
+      "Fit-Stress3300": {
+        "last_scanned": 1768862738.251356,
+        "pro_ai_karma": 7
+      },
+      "Ancient_Pangolin1453": {
+        "last_scanned": 1768863246.741938,
+        "pro_ai_karma": 1
+      },
+      "thots_in_prayers": {
+        "last_scanned": 1768863670.907577,
+        "pro_ai_karma": 4
+      },
+      "Heuwggejfjjcjwh": {
+        "last_scanned": 1768864252.123793,
+        "pro_ai_karma": 2
+      },
+      "odlicen5": {
+        "last_scanned": 1768864935.13766,
+        "pro_ai_karma": 24
+      },
+      "AWellsWorthFiction": {
+        "last_scanned": 1768865587.98865,
+        "pro_ai_karma": 10
+      },
+      "Kinu4U": {
+        "last_scanned": 1768866136.428884,
+        "pro_ai_karma": -6
+      },
+      "railroad-dreams": {
+        "last_scanned": 1768866670.765069,
+        "pro_ai_karma": 6
+      },
+      "RecmacfonD": {
+        "last_scanned": 1768867027.010625,
+        "pro_ai_karma": 249
+      },
+      "chcampb": {
+        "last_scanned": 1768868659.283641,
+        "pro_ai_karma": 39
+      },
+      "bobzmuda": {
+        "last_scanned": 1768869957.119013,
+        "pro_ai_karma": 18
+      },
+      "DeManMetHetPlan": {
+        "last_scanned": 1768871810.138835,
+        "pro_ai_karma": 69
+      },
+      "crustyeng": {
+        "last_scanned": 1768874494.577314,
+        "pro_ai_karma": 2
+      },
+      "Funny-Blueberry-2630": {
+        "last_scanned": 1768877478.372184,
+        "pro_ai_karma": 0
+      },
+      "LeatherSouth3792": {
+        "last_scanned": 1768879572.515458,
+        "pro_ai_karma": 3
+      },
+      "ineffective_topos": {
+        "last_scanned": 1768881508.478013,
+        "pro_ai_karma": 30
+      },
+      "Kavethought": {
+        "last_scanned": 1768883211.273435,
+        "pro_ai_karma": 925
+      },
+      "AwarenessCautious219": {
+        "last_scanned": 1768884429.503608,
+        "pro_ai_karma": 101
+      },
+      "hasuuser": {
+        "last_scanned": 1768885359.951236,
+        "pro_ai_karma": 4
+      },
+      "goodtimesKC": {
+        "last_scanned": 1768886260.747323,
+        "pro_ai_karma": 43
+      },
+      "reddit_geb": {
+        "last_scanned": 1768887173.585743,
+        "pro_ai_karma": 2
+      },
+      "mihpet132": {
+        "last_scanned": 1768888064.321294,
+        "pro_ai_karma": 63
+      },
+      "Northeast_Cuisine": {
+        "last_scanned": 1768888667.009844,
+        "pro_ai_karma": 27
+      },
+      "nath1as": {
+        "last_scanned": 1768889593.286342,
+        "pro_ai_karma": 5
+      },
+      "fallingfridge": {
+        "last_scanned": 1768890494.899416,
+        "pro_ai_karma": 3
+      },
+      "Valuable-Village1669": {
+        "last_scanned": 1768891684.569525,
+        "pro_ai_karma": 101
+      },
+      "maschayana": {
+        "last_scanned": 1768892583.880838,
+        "pro_ai_karma": -1
+      },
+      "PythonNovice123": {
+        "last_scanned": 1768893436.681477,
+        "pro_ai_karma": 159
+      },
+      "Un4giv3n-madmonk": {
+        "last_scanned": 1768894361.8902,
+        "pro_ai_karma": 1
+      },
+      "DrFujiwara": {
+        "last_scanned": 1768895098.155416,
+        "pro_ai_karma": 69
+      },
+      "StrikerSSR": {
+        "last_scanned": 1768895644.787695,
+        "pro_ai_karma": 1
+      },
+      "Urmomgayha": {
+        "last_scanned": 1768896072.508713,
+        "pro_ai_karma": 28
+      },
+      "CarlCarlton": {
+        "last_scanned": 1768896921.601423,
+        "pro_ai_karma": 117
+      },
+      "FalconDear6251": {
+        "last_scanned": 1768897867.01152,
+        "pro_ai_karma": 3
+      },
+      "Intelligent_Aerie276": {
+        "last_scanned": 1768898960.969245,
+        "pro_ai_karma": 3
+      },
+      "FaceDeer": {
+        "last_scanned": 1768899750.262093,
+        "pro_ai_karma": 390
+      },
+      "HyperspaceAndBeyond": {
+        "last_scanned": 1768900663.640594,
+        "pro_ai_karma": 178
+      },
+      "Leavemealone4eva": {
+        "last_scanned": 1768901621.983077,
+        "pro_ai_karma": 12
+      },
+      "No_Consideration4594": {
+        "last_scanned": 1768902538.98816,
+        "pro_ai_karma": 1
+      },
+      "Impossible-Glass-487": {
+        "last_scanned": 1768903167.122118,
+        "pro_ai_karma": 1
+      },
+      "theRealBigBack91": {
+        "last_scanned": 1768904026.281848,
+        "pro_ai_karma": -28
+      },
+      "AIFocusedAcc": {
+        "last_scanned": 1768904884.000287,
+        "pro_ai_karma": 7
+      },
+      "Successful-Ad-1003": {
+        "last_scanned": 1768905909.881097,
+        "pro_ai_karma": 154
+      },
+      "nevertoolate1983": {
+        "last_scanned": 1768906646.302391,
+        "pro_ai_karma": 23
+      },
+      "ChymChymX": {
+        "last_scanned": 1768907356.831126,
+        "pro_ai_karma": 168
+      },
+      "Warlaw": {
+        "last_scanned": 1768908113.090246,
+        "pro_ai_karma": 214
+      },
+      "TimberBiscuits": {
+        "last_scanned": 1768908889.036585,
+        "pro_ai_karma": 7
+      },
+      "No_Practice_745": {
+        "last_scanned": 1768909487.015868,
+        "pro_ai_karma": 1
+      },
+      "AntiTas": {
+        "last_scanned": 1768909994.412305,
+        "pro_ai_karma": 1
+      },
+      "homiej420": {
+        "last_scanned": 1768910372.326128,
+        "pro_ai_karma": 60
+      },
+      "Chop1n": {
+        "last_scanned": 1768911507.141966,
+        "pro_ai_karma": 175
+      },
+      "vinigrae": {
+        "last_scanned": 1768912549.531906,
+        "pro_ai_karma": 3
+      },
+      "mccoypauley": {
+        "last_scanned": 1768913999.117573,
+        "pro_ai_karma": 315
+      },
+      "Freed4ever": {
+        "last_scanned": 1768915518.332796,
+        "pro_ai_karma": 170
+      },
+      "dooperma": {
+        "last_scanned": 1768916759.567188,
+        "pro_ai_karma": 25
+      },
+      "SignificantLog6863": {
+        "last_scanned": 1768917691.800153,
+        "pro_ai_karma": 319
+      },
+      "BunnyWiilli": {
+        "last_scanned": 1768918620.23945,
+        "pro_ai_karma": 32
+      },
+      "shurimalonelybird": {
+        "last_scanned": 1768919551.915066,
+        "pro_ai_karma": 5
+      },
+      "Terrible-Sir742": {
+        "last_scanned": 1768920611.387698,
+        "pro_ai_karma": 49
+      },
+      "enfarious": {
+        "last_scanned": 1768921319.29542,
+        "pro_ai_karma": 2
+      },
+      "Foosec": {
+        "last_scanned": 1768922177.769555,
+        "pro_ai_karma": 8
+      },
+      "jt-for-three": {
+        "last_scanned": 1768923094.572904,
+        "pro_ai_karma": 66
+      },
+      "nogganoggak": {
+        "last_scanned": 1768924045.70093,
+        "pro_ai_karma": 5
+      },
+      "PineappleHairy4325": {
+        "last_scanned": 1768924789.017546,
+        "pro_ai_karma": 30
+      },
+      "Bubbly_Address_8975": {
+        "last_scanned": 1768925743.440599,
+        "pro_ai_karma": 4
+      },
+      "ParadigmTheorem": {
+        "last_scanned": 1768926684.727489,
+        "pro_ai_karma": 739
+      },
+      "Old_Respond_6091": {
+        "last_scanned": 1768927791.349195,
+        "pro_ai_karma": 123
+      },
+      "SeftalireceliBoi": {
+        "last_scanned": 1768928594.974044,
+        "pro_ai_karma": 88
+      },
+      "az226": {
+        "last_scanned": 1768929414.997929,
+        "pro_ai_karma": 20
+      },
+      "kjdavid": {
+        "last_scanned": 1768930347.64747,
+        "pro_ai_karma": 477
+      },
+      "Awkward-Complex3472": {
+        "last_scanned": 1768931254.337146,
+        "pro_ai_karma": 1
+      },
+      "CalmEntry4855": {
+        "last_scanned": 1768931900.638631,
+        "pro_ai_karma": -6
+      },
+      "wtjones": {
+        "last_scanned": 1768932850.918366,
+        "pro_ai_karma": 14
+      },
+      "Jogurtonelle": {
+        "last_scanned": 1768933738.297008,
+        "pro_ai_karma": -1
+      },
+      "Majestic_Focus_420": {
+        "last_scanned": 1768935134.041609,
+        "pro_ai_karma": 1
+      },
+      "jessicalacy10": {
+        "last_scanned": 1768936464.294851,
+        "pro_ai_karma": 0
+      },
+      "fenixnoctis": {
+        "last_scanned": 1768938255.568077,
+        "pro_ai_karma": 0
+      },
+      "itsmebenji69": {
+        "last_scanned": 1768939970.835117,
+        "pro_ai_karma": 22
+      },
+      "homezlice": {
+        "last_scanned": 1768941304.104509,
+        "pro_ai_karma": 58
+      },
+      "Intelligent_Ebb6067": {
+        "last_scanned": 1768942222.002701,
+        "pro_ai_karma": 10
+      },
+      "Hardy-healthzy": {
+        "last_scanned": 1768942871.134841,
+        "pro_ai_karma": 2
+      },
+      "Eisegetical": {
+        "last_scanned": 1768943471.101198,
+        "pro_ai_karma": 24
+      },
+      "CallMePyro": {
+        "last_scanned": 1768944194.437885,
+        "pro_ai_karma": 149
+      },
+      "dumpmymoney": {
+        "last_scanned": 1768944881.14789,
+        "pro_ai_karma": 5
+      },
+      "verbify": {
+        "last_scanned": 1768945443.3,
+        "pro_ai_karma": 0
+      },
+      "Inanesysadmin": {
+        "last_scanned": 1768945883.128448,
+        "pro_ai_karma": 8
+      },
+      "jp12340": {
+        "last_scanned": 1768946277.444746,
+        "pro_ai_karma": 134
+      },
+      "sdvbjdsjkb245": {
+        "last_scanned": 1768946905.78281,
+        "pro_ai_karma": 1211
+      },
+      "Arrival-Of-The-Birds": {
+        "last_scanned": 1768947671.627027,
+        "pro_ai_karma": 400
+      },
+      "scoobyn00bydoo": {
+        "last_scanned": 1768948469.810961,
+        "pro_ai_karma": 123
+      },
+      "roankr": {
+        "last_scanned": 1768949042.230268,
+        "pro_ai_karma": 6
+      },
+      "ElongatdMuskrat69420": {
+        "last_scanned": 1768949503.786117,
+        "pro_ai_karma": 2
+      },
+      "ShotUnit": {
+        "last_scanned": 1768949902.380833,
+        "pro_ai_karma": 3
+      },
+      "Light_Step1": {
+        "last_scanned": 1768950557.750272,
+        "pro_ai_karma": 2
+      },
+      "Leefa": {
+        "last_scanned": 1768951271.959933,
+        "pro_ai_karma": 29
+      },
+      "Upstairs_Pride_6120": {
+        "last_scanned": 1768952038.318927,
+        "pro_ai_karma": 1
+      },
+      "CaeciliusC": {
+        "last_scanned": 1768952633.096324,
+        "pro_ai_karma": 1
+      },
+      "EvilKatta": {
+        "last_scanned": 1768953153.051042,
+        "pro_ai_karma": 51
+      },
+      "coy-06": {
+        "last_scanned": 1768953542.796602,
+        "pro_ai_karma": 5
+      },
+      "MaybeLiterally": {
+        "last_scanned": 1768956071.384156,
+        "pro_ai_karma": 112
+      },
+      "IcyBranch9728": {
+        "last_scanned": 1768957803.028768,
+        "pro_ai_karma": 1
+      },
+      "FreshArugula5796": {
+        "last_scanned": 1768960315.837455,
+        "pro_ai_karma": 1
+      },
+      "NoData1756": {
+        "last_scanned": 1768963016.660072,
+        "pro_ai_karma": 3
+      },
+      "UpInTheCut": {
+        "last_scanned": 1768965476.689257,
+        "pro_ai_karma": 1
+      },
+      "Brilliant_Truck1810": {
+        "last_scanned": 1768967626.536068,
+        "pro_ai_karma": 5
+      },
+      "autotom": {
+        "last_scanned": 1768969023.754194,
+        "pro_ai_karma": 108
+      },
+      "SizeableBrain": {
+        "last_scanned": 1768970146.292673,
+        "pro_ai_karma": 1
+      },
+      "bottomoflake": {
+        "last_scanned": 1768971288.151303,
+        "pro_ai_karma": 99
+      },
+      "DarkFlameShadowNinja": {
+        "last_scanned": 1768972019.686783,
+        "pro_ai_karma": -1
+      },
+      "Aggressive-Bother470": {
+        "last_scanned": 1768972758.925717,
+        "pro_ai_karma": 1
+      },
+      "Rise-O-Matic": {
+        "last_scanned": 1768973704.404695,
+        "pro_ai_karma": 103
+      },
+      "brok3nh3lix": {
+        "last_scanned": 1768974520.82426,
+        "pro_ai_karma": 1
+      },
+      "mcilrain": {
+        "last_scanned": 1768975067.979317,
+        "pro_ai_karma": 18
+      },
+      "lurreal": {
+        "last_scanned": 1768976005.513745,
+        "pro_ai_karma": 2
+      },
+      "Winter_Ad6784": {
+        "last_scanned": 1768976901.266905,
+        "pro_ai_karma": 97
+      },
+      "Aware_Ad_6739": {
+        "last_scanned": 1768978111.178955,
+        "pro_ai_karma": 5
+      },
+      "Metal_Goose_Solid": {
+        "last_scanned": 1768978995.064641,
+        "pro_ai_karma": 2
+      },
+      "marmaviscount": {
+        "last_scanned": 1768979858.261193,
+        "pro_ai_karma": 4
+      },
+      "Dew-Fox-6899": {
+        "last_scanned": 1768980776.412966,
+        "pro_ai_karma": 363
+      },
+      "Optimal-Fix1216": {
+        "last_scanned": 1768981576.739495,
+        "pro_ai_karma": 54
+      },
+      "Low_Philosophy_8": {
+        "last_scanned": 1768982130.897847,
+        "pro_ai_karma": 1
+      },
+      "Secret-Raspberry-937": {
+        "last_scanned": 1768982606.246272,
+        "pro_ai_karma": 213
+      },
+      "cpt_ugh": {
+        "last_scanned": 1768983353.892235,
+        "pro_ai_karma": 147
+      },
+      "unknowntheme": {
+        "last_scanned": 1768984275.289191,
+        "pro_ai_karma": 126
+      },
+      "typeryu": {
+        "last_scanned": 1768985301.504834,
+        "pro_ai_karma": 121
+      },
+      "pixeltrusts": {
+        "last_scanned": 1768986075.393005,
+        "pro_ai_karma": -23
+      },
+      "frank26080115": {
+        "last_scanned": 1768987014.451817,
+        "pro_ai_karma": 46
+      },
+      "spinnychair32": {
+        "last_scanned": 1768987961.458318,
+        "pro_ai_karma": 9
+      },
+      "FitFired": {
+        "last_scanned": 1768988895.368105,
+        "pro_ai_karma": 17
+      },
+      "Dwarven_blue": {
+        "last_scanned": 1768989533.256606,
+        "pro_ai_karma": 2
+      },
+      "Thisguyisgarbage": {
+        "last_scanned": 1768990375.753625,
+        "pro_ai_karma": 26
+      },
+      "sweetcinnamon54": {
+        "last_scanned": 1768991208.240357,
+        "pro_ai_karma": 1
+      },
+      "AlexTaylorAI": {
+        "last_scanned": 1768992263.159941,
+        "pro_ai_karma": 70
+      },
+      "ZealousidealBus9271": {
+        "last_scanned": 1768993039.445135,
+        "pro_ai_karma": 201
+      },
+      "TopTippityTop": {
+        "last_scanned": 1768993711.955411,
+        "pro_ai_karma": 48
+      },
+      "john0201": {
+        "last_scanned": 1768994477.467942,
+        "pro_ai_karma": 25
+      },
+      "Traumfahrer": {
+        "last_scanned": 1768995278.784859,
+        "pro_ai_karma": 2
+      },
+      "Browser1969": {
+        "last_scanned": 1768995914.326723,
+        "pro_ai_karma": 2
+      },
+      "The_Scout1255": {
+        "last_scanned": 1768996393.724394,
+        "pro_ai_karma": 570
+      },
+      "Telegonusz": {
+        "last_scanned": 1768996832.879883,
+        "pro_ai_karma": -14
+      },
+      "Fuskeduske": {
+        "last_scanned": 1768997921.934166,
+        "pro_ai_karma": 12
+      },
+      "brief_affair": {
+        "last_scanned": 1768998982.116268,
+        "pro_ai_karma": -2
+      },
+      "Solarka45": {
+        "last_scanned": 1769000476.84546,
+        "pro_ai_karma": 287
+      },
+      "MrFunnything9": {
+        "last_scanned": 1769001892.375234,
+        "pro_ai_karma": 2
+      },
+      "acdbddh": {
+        "last_scanned": 1769003090.631405,
+        "pro_ai_karma": 1
+      },
+      "The_Wytch": {
+        "last_scanned": 1769004077.419029,
+        "pro_ai_karma": 338
+      },
+      "redguard128": {
+        "last_scanned": 1769005019.83112,
+        "pro_ai_karma": -2
+      },
+      "RobbeDumoulin": {
+        "last_scanned": 1769005945.546232,
+        "pro_ai_karma": 2
+      },
+      "Setsuiii": {
+        "last_scanned": 1769007001.489437,
+        "pro_ai_karma": 467
+      },
+      "Ok_Reaction_4340": {
+        "last_scanned": 1769007730.023954,
+        "pro_ai_karma": 8
+      },
+      "sergeyarl": {
+        "last_scanned": 1769008575.541438,
+        "pro_ai_karma": 4
+      },
+      "Sopwafel": {
+        "last_scanned": 1769009527.667293,
+        "pro_ai_karma": 89
+      },
+      "qustrolabe": {
+        "last_scanned": 1769010535.114133,
+        "pro_ai_karma": 290
+      },
+      "Apulian-baron1987": {
+        "last_scanned": 1769011291.755617,
+        "pro_ai_karma": 52
+      },
+      "ihexx": {
+        "last_scanned": 1769012259.010657,
+        "pro_ai_karma": 663
+      },
+      "PyroRampage": {
+        "last_scanned": 1769013350.138503,
+        "pro_ai_karma": 35
+      },
+      "SlopDev": {
+        "last_scanned": 1769014782.831142,
+        "pro_ai_karma": 23
+      },
+      "Luke2642": {
+        "last_scanned": 1769016670.229127,
+        "pro_ai_karma": 17
+      },
+      "InductiveCharging": {
+        "last_scanned": 1769017999.546558,
+        "pro_ai_karma": 1
+      },
+      "Longjumping-Bake-557": {
+        "last_scanned": 1769018991.259955,
+        "pro_ai_karma": 0
+      },
+      "masiuspt": {
+        "last_scanned": 1769019997.533476,
+        "pro_ai_karma": 0
+      },
+      "PPTV-110": {
+        "last_scanned": 1769021216.228623,
+        "pro_ai_karma": 2
+      },
+      "Disguised_Engineer": {
+        "last_scanned": 1769022283.290993,
+        "pro_ai_karma": 0
+      },
+      "randopota": {
+        "last_scanned": 1769023075.562079,
+        "pro_ai_karma": 87
+      },
+      "LysolDaisy": {
+        "last_scanned": 1769024031.25831,
+        "pro_ai_karma": 1
+      },
+      "West-Research-8566": {
+        "last_scanned": 1769024785.176425,
+        "pro_ai_karma": 21
+      },
+      "Timely-Switch-2601": {
+        "last_scanned": 1769025446.114806,
+        "pro_ai_karma": 2
+      },
+      "kemb0": {
+        "last_scanned": 1769026262.919572,
+        "pro_ai_karma": 10
+      },
+      "Appropriate_Scar_262": {
+        "last_scanned": 1769026993.254113,
+        "pro_ai_karma": 12
+      },
+      "SerdanKK": {
+        "last_scanned": 1769028073.587588,
+        "pro_ai_karma": 107
+      },
+      "Weekly_Way_3802": {
+        "last_scanned": 1769028884.622734,
+        "pro_ai_karma": 35
+      },
+      "diamondonion": {
+        "last_scanned": 1769029514.963293,
+        "pro_ai_karma": 1
+      },
+      "purloinedspork": {
+        "last_scanned": 1769030319.205756,
+        "pro_ai_karma": 1
+      },
+      "ManufacturedOlympus": {
+        "last_scanned": 1769031423.758855,
+        "pro_ai_karma": 7
+      },
+      "DeepWisdomGuy": {
+        "last_scanned": 1769032189.735992,
+        "pro_ai_karma": 31
+      },
+      "OttovonBismarck1862": {
+        "last_scanned": 1769032731.683179,
+        "pro_ai_karma": 0
+      },
+      "SnowGrayMan": {
+        "last_scanned": 1769033476.44199,
+        "pro_ai_karma": 1
+      },
+      "extradimensional": {
+        "last_scanned": 1769034211.584189,
+        "pro_ai_karma": 2
+      },
+      "ArtisticallyCaged": {
+        "last_scanned": 1769035159.721991,
+        "pro_ai_karma": 61
+      },
+      "gamernato": {
+        "last_scanned": 1769035893.322128,
+        "pro_ai_karma": 11
+      },
+      "DisastroMaestro": {
+        "last_scanned": 1769036475.920897,
+        "pro_ai_karma": 2
+      },
+      "simontechcurator": {
+        "last_scanned": 1769037149.617642,
+        "pro_ai_karma": 281
+      },
+      "Life-Cauliflower8296": {
+        "last_scanned": 1769037951.112125,
+        "pro_ai_karma": 38
+      },
+      "Retox86": {
+        "last_scanned": 1769038749.082151,
+        "pro_ai_karma": 26
+      },
+      "re3al": {
+        "last_scanned": 1769039396.249627,
+        "pro_ai_karma": 54
+      },
+      "angelbabyxoxox": {
+        "last_scanned": 1769039879.230407,
+        "pro_ai_karma": 1
+      },
+      "Knowledge_420": {
+        "last_scanned": 1769042095.708204,
+        "pro_ai_karma": 14
+      },
+      "NovaAkumaa": {
+        "last_scanned": 1769043676.287179,
+        "pro_ai_karma": 2
+      },
+      "tinny66666": {
+        "last_scanned": 1769045953.959925,
+        "pro_ai_karma": 534
+      },
+      "iLikeE": {
+        "last_scanned": 1769049128.48839,
+        "pro_ai_karma": 6
+      },
+      "freeman_joe": {
+        "last_scanned": 1769051824.898404,
+        "pro_ai_karma": 16
+      },
+      "mobcat_40": {
+        "last_scanned": 1769054146.785043,
+        "pro_ai_karma": 22
+      },
+      "dgollas": {
+        "last_scanned": 1769055702.885206,
+        "pro_ai_karma": 1
+      },
+      "germancenturydog22": {
+        "last_scanned": 1769056876.106566,
+        "pro_ai_karma": 3
+      },
+      "promeathean": {
+        "last_scanned": 1769058009.123,
+        "pro_ai_karma": 2
+      },
+      "Freak-Of-Nurture-": {
+        "last_scanned": 1769058990.185175,
+        "pro_ai_karma": 7
+      },
+      "Average64": {
+        "last_scanned": 1769059900.311954,
+        "pro_ai_karma": 2
+      },
+      "nihiIist-": {
+        "last_scanned": 1769060846.00482,
+        "pro_ai_karma": 25
+      },
+      "JamieG83": {
+        "last_scanned": 1769061439.712328,
+        "pro_ai_karma": 27
+      },
+      "nomorebuttsplz": {
+        "last_scanned": 1769062272.052237,
+        "pro_ai_karma": 262
+      },
+      "prattxxx": {
+        "last_scanned": 1769063099.615393,
+        "pro_ai_karma": 97
+      },
+      "Glum_Cheesecake9859": {
+        "last_scanned": 1769064224.370677,
+        "pro_ai_karma": 0
+      },
+      "LeonCrater": {
+        "last_scanned": 1769065122.999053,
+        "pro_ai_karma": 1
+      },
+      "Technical_Drag_428": {
+        "last_scanned": 1769066115.168254,
+        "pro_ai_karma": 24
+      },
+      "biogeek1": {
+        "last_scanned": 1769066970.469096,
+        "pro_ai_karma": 14
+      },
+      "East-Search2190": {
+        "last_scanned": 1769067773.905311,
+        "pro_ai_karma": 0
+      },
+      "National-Spell8326": {
+        "last_scanned": 1769068364.574106,
+        "pro_ai_karma": 6
+      },
+      "Future_Believer": {
+        "last_scanned": 1769068778.517883,
+        "pro_ai_karma": 37
+      },
+      "256BitChris": {
+        "last_scanned": 1769069642.951615,
+        "pro_ai_karma": 2
+      },
+      "aboysmokingintherain": {
+        "last_scanned": 1769070543.547396,
+        "pro_ai_karma": -5
+      },
+      "cafesamp": {
+        "last_scanned": 1769071705.736991,
+        "pro_ai_karma": 163
+      },
+      "Formal-Assistance02": {
+        "last_scanned": 1769072540.130952,
+        "pro_ai_karma": 1220
+      },
+      "IReportLuddites": {
+        "last_scanned": 1769073444.302834,
+        "pro_ai_karma": 1641
+      },
+      "Worldly_Expression43": {
+        "last_scanned": 1769074395.55647,
+        "pro_ai_karma": 2
+      },
+      "Ok-Canary-9820": {
+        "last_scanned": 1769075318.906821,
+        "pro_ai_karma": 73
+      },
+      "South_Cheesecake6316": {
+        "last_scanned": 1769075926.29089,
+        "pro_ai_karma": 11
+      },
+      "Cheap_Scientist6984": {
+        "last_scanned": 1769076786.561891,
+        "pro_ai_karma": 1
+      },
+      "teamharder": {
+        "last_scanned": 1769077608.923497,
+        "pro_ai_karma": 630
+      },
+      "theShku": {
+        "last_scanned": 1769078634.538567,
+        "pro_ai_karma": 5
+      },
+      "Quirky-Specific": {
+        "last_scanned": 1769079383.921968,
+        "pro_ai_karma": -3
+      },
+      "Specialist-Art-6326": {
+        "last_scanned": 1769080024.347625,
+        "pro_ai_karma": 6
+      },
+      "1ncehost": {
+        "last_scanned": 1769080740.280474,
+        "pro_ai_karma": 40
+      },
+      "KnoxCastle": {
+        "last_scanned": 1769081573.054055,
+        "pro_ai_karma": 7
+      },
+      "valegrete": {
+        "last_scanned": 1769082183.715129,
+        "pro_ai_karma": -2
+      },
+      "Own-Assistant8718": {
+        "last_scanned": 1769082706.30332,
+        "pro_ai_karma": 11
+      },
+      "GrandFrequency": {
+        "last_scanned": 1769083150.040762,
+        "pro_ai_karma": 18
+      },
+      "ZorbaTHut": {
+        "last_scanned": 1769084316.523993,
+        "pro_ai_karma": 170
+      },
+      "ZorVelez": {
+        "last_scanned": 1769085379.923773,
+        "pro_ai_karma": 28
+      },
+      "Achim30": {
+        "last_scanned": 1769086872.2603,
+        "pro_ai_karma": 22
+      },
+      "Disposable110": {
+        "last_scanned": 1769088313.425676,
+        "pro_ai_karma": 703
+      },
+      "Alone-Competition-77": {
+        "last_scanned": 1769089521.046653,
+        "pro_ai_karma": 844
+      },
+      "allants2": {
+        "last_scanned": 1769090481.923794,
+        "pro_ai_karma": -2
+      },
+      "levanlaratt": {
+        "last_scanned": 1769091471.110134,
+        "pro_ai_karma": 0
+      },
+      "MichiganMontana": {
+        "last_scanned": 1769092397.89137,
+        "pro_ai_karma": 5
+      },
+      "Aran1989": {
+        "last_scanned": 1769093465.776401,
+        "pro_ai_karma": 0
+      },
+      "brokenmatt": {
+        "last_scanned": 1769094112.718419,
+        "pro_ai_karma": 762
+      },
+      "Tomaskerry": {
+        "last_scanned": 1769094931.371105,
+        "pro_ai_karma": 3
+      },
+      "PhantomLordG": {
+        "last_scanned": 1769095871.86922,
+        "pro_ai_karma": 11
+      },
+      "Hegemonikon138": {
+        "last_scanned": 1769096815.955375,
+        "pro_ai_karma": 68
+      },
+      "More-Line9191": {
+        "last_scanned": 1769097537.294873,
+        "pro_ai_karma": 3
+      },
+      "Small_Guess_1530": {
+        "last_scanned": 1769098521.412784,
+        "pro_ai_karma": 18
+      },
+      "Yuli-Ban": {
+        "last_scanned": 1769099471.02495,
+        "pro_ai_karma": 120
+      },
+      "skeptical-speculator": {
+        "last_scanned": 1769100569.526226,
+        "pro_ai_karma": 30
+      },
+      "No-Invite-7826": {
+        "last_scanned": 1769101402.896181,
+        "pro_ai_karma": 5
+      },
+      "Delicious-Reveal-862": {
+        "last_scanned": 1769102247.769274,
+        "pro_ai_karma": 2
+      },
+      "Shaernobill": {
+        "last_scanned": 1769103184.861605,
+        "pro_ai_karma": 9
+      },
+      "DunoCO": {
+        "last_scanned": 1769104060.849235,
+        "pro_ai_karma": 81
+      },
+      "sassydodo": {
+        "last_scanned": 1769104710.198615,
+        "pro_ai_karma": 270
+      },
+      "Similar_Exam2192": {
+        "last_scanned": 1769105523.413578,
+        "pro_ai_karma": 25
+      },
+      "BenjaminHamnett": {
+        "last_scanned": 1769106383.969609,
+        "pro_ai_karma": 43
+      },
+      "Fornici0": {
+        "last_scanned": 1769107516.077067,
+        "pro_ai_karma": 4
+      },
+      "Vexarian": {
+        "last_scanned": 1769108398.002488,
+        "pro_ai_karma": 321
+      },
+      "DVDAallday": {
+        "last_scanned": 1769109174.231569,
+        "pro_ai_karma": -4
+      },
+      "Ormusn2o": {
+        "last_scanned": 1769109978.564199,
+        "pro_ai_karma": 18
+      },
+      "Reggaepocalypse": {
+        "last_scanned": 1769110691.615236,
+        "pro_ai_karma": 2
+      },
+      "Droi": {
+        "last_scanned": 1769111264.819097,
+        "pro_ai_karma": 32
+      },
+      "Ideagineer": {
+        "last_scanned": 1769111704.957683,
+        "pro_ai_karma": 3
+      },
+      "Party-Dig2309": {
+        "last_scanned": 1769112164.453333,
+        "pro_ai_karma": 3
+      },
+      "TonightSpiritual3191": {
+        "last_scanned": 1769112778.3389,
+        "pro_ai_karma": 412
+      },
+      "Key-Chemistry-3873": {
+        "last_scanned": 1769113623.238587,
+        "pro_ai_karma": 137
+      },
+      "Trebhum": {
+        "last_scanned": 1769114538.577432,
+        "pro_ai_karma": 1
+      },
+      "KomradKot": {
+        "last_scanned": 1769115217.410194,
+        "pro_ai_karma": 1
+      },
+      "wombatIsAngry": {
+        "last_scanned": 1769115735.145717,
+        "pro_ai_karma": 13
+      },
+      "terserterseness": {
+        "last_scanned": 1769116392.66854,
+        "pro_ai_karma": 4
+      },
+      "Petdogdavid1": {
+        "last_scanned": 1769117194.603458,
+        "pro_ai_karma": 12
+      },
+      "LateToTheSingularity": {
+        "last_scanned": 1769117934.068835,
+        "pro_ai_karma": 31
+      },
+      "Federal-Guess7420": {
+        "last_scanned": 1769118551.937123,
+        "pro_ai_karma": 33
+      },
+      "incrediblynormalpers": {
+        "last_scanned": 1769119050.834197,
+        "pro_ai_karma": 3
+      },
+      "Somecount": {
+        "last_scanned": 1769119632.647016,
+        "pro_ai_karma": 1
+      },
+      "Connect_Art_6497": {
+        "last_scanned": 1769120315.400267,
+        "pro_ai_karma": 36
+      },
+      "Massive-Question-550": {
+        "last_scanned": 1769121270.502302,
+        "pro_ai_karma": 15
+      },
+      "valentino22": {
+        "last_scanned": 1769121914.28212,
+        "pro_ai_karma": 4
+      },
+      "throughawaythedew": {
+        "last_scanned": 1769122480.373079,
+        "pro_ai_karma": 3
+      },
+      "After-Cake9055": {
+        "last_scanned": 1769122915.070795,
+        "pro_ai_karma": 1
+      },
+      "SirDeadPuddle": {
+        "last_scanned": 1769123520.495919,
+        "pro_ai_karma": 1
+      },
+      "7hats": {
+        "last_scanned": 1769124295.984674,
+        "pro_ai_karma": 59
+      },
+      "shryke12": {
+        "last_scanned": 1769124937.344568,
+        "pro_ai_karma": 93
+      },
+      "RSACT": {
+        "last_scanned": 1769125502.813998,
+        "pro_ai_karma": 1
+      },
+      "postmortemstardom": {
+        "last_scanned": 1769125976.621538,
+        "pro_ai_karma": 5
+      },
+      "Ambitious_Two_4522": {
+        "last_scanned": 1769126373.812268,
+        "pro_ai_karma": 82
+      },
+      "bladefounder": {
+        "last_scanned": 1769128872.626548,
+        "pro_ai_karma": 1574
+      },
+      "roludaodosul": {
+        "last_scanned": 1769130602.240779,
+        "pro_ai_karma": 1
+      },
+      "Starman164": {
+        "last_scanned": 1769133093.69142,
+        "pro_ai_karma": 1210
+      },
+      "False_Process_4569": {
+        "last_scanned": 1769135776.723597,
+        "pro_ai_karma": 1249
+      },
+      "these_nuts25": {
+        "last_scanned": 1769138244.055387,
+        "pro_ai_karma": 8
+      },
+      "BigMuscles": {
+        "last_scanned": 1769140480.445507,
+        "pro_ai_karma": 1
+      },
+      "WolfedOut": {
+        "last_scanned": 1769141743.081572,
+        "pro_ai_karma": 9
+      },
+      "Heart-Logic": {
+        "last_scanned": 1769142840.631274,
+        "pro_ai_karma": 128
+      },
+      "rhade333": {
+        "last_scanned": 1769144016.348599,
+        "pro_ai_karma": 218
+      },
+      "inherthroat": {
+        "last_scanned": 1769144761.723529,
+        "pro_ai_karma": 0
+      },
+      "xyzpqr": {
+        "last_scanned": 1769145505.855567,
+        "pro_ai_karma": 1
+      },
+      "RobXSIQ": {
+        "last_scanned": 1769146419.942427,
+        "pro_ai_karma": 404
+      },
+      "only_fun_topics": {
+        "last_scanned": 1769147251.76696,
+        "pro_ai_karma": 46
+      },
+      "hansfriedee": {
+        "last_scanned": 1769147793.901913,
+        "pro_ai_karma": 1
+      },
+      "EatsRats": {
+        "last_scanned": 1769148314.2864,
+        "pro_ai_karma": 4
+      },
+      "shoe7525": {
+        "last_scanned": 1769149026.949976,
+        "pro_ai_karma": 19
+      },
+      "Morphedral": {
+        "last_scanned": 1769149968.296635,
+        "pro_ai_karma": 125
+      },
+      "brajkobaki": {
+        "last_scanned": 1769151142.032539,
+        "pro_ai_karma": 1
+      },
+      "lupercalpainting": {
+        "last_scanned": 1769151835.018455,
+        "pro_ai_karma": 10
+      },
+      "LastCall2021": {
+        "last_scanned": 1769152560.09718,
+        "pro_ai_karma": 72
+      },
+      "Kesh4n": {
+        "last_scanned": 1769153415.829096,
+        "pro_ai_karma": 2
+      },
+      "fail-deadly-": {
+        "last_scanned": 1769154158.565451,
+        "pro_ai_karma": 290
+      },
+      "MD_Yoro": {
+        "last_scanned": 1769154672.22826,
+        "pro_ai_karma": 26
+      },
+      "coffeewithclay": {
+        "last_scanned": 1769155088.819033,
+        "pro_ai_karma": 1
+      },
+      "Elven77AI": {
+        "last_scanned": 1769155829.238181,
+        "pro_ai_karma": 479
+      },
+      "plottwist1": {
+        "last_scanned": 1769156597.453045,
+        "pro_ai_karma": 2
+      },
+      "LateMonitor897": {
+        "last_scanned": 1769157631.548257,
+        "pro_ai_karma": 3
+      },
+      "purleyboy": {
+        "last_scanned": 1769158439.931707,
+        "pro_ai_karma": 3
+      },
+      "Tennis-Affectionate": {
+        "last_scanned": 1769159042.117708,
+        "pro_ai_karma": 2
+      },
+      "mouga68": {
+        "last_scanned": 1769159834.312844,
+        "pro_ai_karma": 1
+      },
+      "tete_fors": {
+        "last_scanned": 1769160741.193937,
+        "pro_ai_karma": 423
+      },
+      "virtualQubit": {
+        "last_scanned": 1769161603.460521,
+        "pro_ai_karma": 17
+      },
+      "Previous_Fortune9600": {
+        "last_scanned": 1769162194.602467,
+        "pro_ai_karma": 3
+      },
+      "DaveSureLong": {
+        "last_scanned": 1769162702.002152,
+        "pro_ai_karma": 346
+      },
+      "St00p_kiddd": {
+        "last_scanned": 1769163374.323346,
+        "pro_ai_karma": 71
+      },
+      "Puzzleheaded-Tea3341": {
+        "last_scanned": 1769164231.076355,
+        "pro_ai_karma": 3
+      },
+      "Mudman2999": {
+        "last_scanned": 1769165165.610672,
+        "pro_ai_karma": 1
+      },
+      "Dismal-Daikon-1091": {
+        "last_scanned": 1769165800.672261,
+        "pro_ai_karma": 2
+      },
+      "AltruisticBasket530": {
+        "last_scanned": 1769166358.613925,
+        "pro_ai_karma": 1
+      },
+      "Flash54321": {
+        "last_scanned": 1769166998.317163,
+        "pro_ai_karma": 1
+      },
+      "Just-GooogleIt": {
+        "last_scanned": 1769167799.869592,
+        "pro_ai_karma": 2
+      },
+      "gatorling": {
+        "last_scanned": 1769168423.99734,
+        "pro_ai_karma": 17
+      },
+      "blitzik": {
+        "last_scanned": 1769168950.177797,
+        "pro_ai_karma": 1
+      },
+      "Objective_Mousse7216": {
+        "last_scanned": 1769169400.861963,
+        "pro_ai_karma": 1
+      },
+      "hardworkinglatinx": {
+        "last_scanned": 1769170033.841693,
+        "pro_ai_karma": 27
+      },
+      "SuccessAffectionate1": {
+        "last_scanned": 1769170813.174273,
+        "pro_ai_karma": 8
+      },
+      "parallax3900": {
+        "last_scanned": 1769171913.715899,
+        "pro_ai_karma": 0
+      },
+      "will_dormer": {
+        "last_scanned": 1769173321.413464,
+        "pro_ai_karma": 2
+      },
+      "ManikSahdev": {
+        "last_scanned": 1769174744.881088,
+        "pro_ai_karma": 29
+      },
+      "segamit": {
+        "last_scanned": 1769175896.774899,
+        "pro_ai_karma": -3
+      },
+      "tropofarmer": {
+        "last_scanned": 1769176738.147883,
+        "pro_ai_karma": 31
+      },
+      "highdimensionaldata": {
+        "last_scanned": 1769177538.324536,
+        "pro_ai_karma": 70
+      },
+      "hornswoggled111": {
+        "last_scanned": 1769178337.806677,
+        "pro_ai_karma": 110
+      },
+      "Few-Pound-7236": {
+        "last_scanned": 1769179244.37195,
+        "pro_ai_karma": 0
+      },
+      "lurksAtDogs": {
+        "last_scanned": 1769179978.587349,
+        "pro_ai_karma": 3
+      },
+      "FriendlyJewThrowaway": {
+        "last_scanned": 1769180521.427104,
+        "pro_ai_karma": 403
+      },
+      "Ill_Mousse_4240": {
+        "last_scanned": 1769181202.102687,
+        "pro_ai_karma": 129
+      },
+      "PandemicSoul": {
+        "last_scanned": 1769182036.163237,
+        "pro_ai_karma": 8
+      },
+      "the8bit": {
+        "last_scanned": 1769182873.618603,
+        "pro_ai_karma": 48
+      },
+      "Pyrostemplar": {
+        "last_scanned": 1769183527.869318,
+        "pro_ai_karma": 2
+      },
+      "crazyjumpinjimmy": {
+        "last_scanned": 1769184077.37549,
+        "pro_ai_karma": 4
+      },
+      "spacecam": {
+        "last_scanned": 1769184848.783186,
+        "pro_ai_karma": 75
+      },
+      "linkardtankard": {
+        "last_scanned": 1769185726.20321,
+        "pro_ai_karma": 2
+      },
+      "CaptainRedditor_OP": {
+        "last_scanned": 1769186802.013104,
+        "pro_ai_karma": 1
+      },
+      "ai-attorney": {
+        "last_scanned": 1769187592.370988,
+        "pro_ai_karma": 22
+      },
+      "OrdinaryReasonable63": {
+        "last_scanned": 1769188421.793356,
+        "pro_ai_karma": -1
+      },
+      "WildLupo": {
+        "last_scanned": 1769189416.53998,
+        "pro_ai_karma": -2
+      },
+      "welpWW3isgonnasuck": {
+        "last_scanned": 1769190128.399975,
+        "pro_ai_karma": -2
+      },
+      "Fit-Dentist6093": {
+        "last_scanned": 1769190701.523604,
+        "pro_ai_karma": 17
+      },
+      "damndatassdoh": {
+        "last_scanned": 1769191130.657342,
+        "pro_ai_karma": -1
+      },
+      "churchill1219": {
+        "last_scanned": 1769192033.327605,
+        "pro_ai_karma": 571
+      },
+      "CandidAtmosphere": {
+        "last_scanned": 1769192906.621766,
+        "pro_ai_karma": 0
+      },
+      "kknow": {
+        "last_scanned": 1769194090.801993,
+        "pro_ai_karma": 2
+      },
+      "OldPlan877": {
+        "last_scanned": 1769194879.806082,
+        "pro_ai_karma": 1
+      },
+      "Kolizuljin": {
+        "last_scanned": 1769195612.313759,
+        "pro_ai_karma": 6
+      },
+      "Bright-Search2835": {
+        "last_scanned": 1769196421.573267,
+        "pro_ai_karma": 274
+      },
+      "Shot_Inflation351": {
+        "last_scanned": 1769197028.705017,
+        "pro_ai_karma": 1
+      },
+      "Ok_Language_588": {
+        "last_scanned": 1769197520.720832,
+        "pro_ai_karma": 8
+      },
+      "pegaunisusicorn": {
+        "last_scanned": 1769197931.300435,
+        "pro_ai_karma": 23
+      },
+      "Outside-Iron-8242": {
+        "last_scanned": 1769198300.942177,
+        "pro_ai_karma": 2072
+      },
+      "oreosnatcher": {
+        "last_scanned": 1769199078.038609,
+        "pro_ai_karma": -1
+      },
+      "thirteenthfox2": {
+        "last_scanned": 1769199794.455631,
+        "pro_ai_karma": 48
+      },
+      "GoodGrades": {
+        "last_scanned": 1769200680.436059,
+        "pro_ai_karma": 11
+      },
+      "DangKilla": {
+        "last_scanned": 1769201344.135979,
+        "pro_ai_karma": 6
+      },
+      "Kosh_Ascadian": {
+        "last_scanned": 1769201861.690375,
+        "pro_ai_karma": 6
+      },
+      "OrgasmInTechnicolor": {
+        "last_scanned": 1769202466.763862,
+        "pro_ai_karma": 0
+      },
+      "BGP_001": {
+        "last_scanned": 1769203151.944271,
+        "pro_ai_karma": 1
+      },
+      "nikola_tesler": {
+        "last_scanned": 1769203951.395867,
+        "pro_ai_karma": -19
+      },
+      "El_Wij": {
+        "last_scanned": 1769204502.708144,
+        "pro_ai_karma": 2
+      },
+      "Malacasts": {
+        "last_scanned": 1769205015.581915,
+        "pro_ai_karma": 2
+      },
+      "StrangePosition1024": {
+        "last_scanned": 1769205408.920657,
+        "pro_ai_karma": 0
+      },
+      "Haplo_dk": {
+        "last_scanned": 1769205912.14551,
+        "pro_ai_karma": 1
+      },
+      "lovebus": {
+        "last_scanned": 1769206509.776809,
+        "pro_ai_karma": 1
+      },
+      "e136": {
+        "last_scanned": 1769207314.564752,
+        "pro_ai_karma": 1
+      },
+      "Stock-Share-7966": {
+        "last_scanned": 1769207979.832657,
+        "pro_ai_karma": 5
+      },
+      "CloseToMyActualName": {
+        "last_scanned": 1769208512.645525,
+        "pro_ai_karma": 1
+      },
+      "Leprozorij2": {
+        "last_scanned": 1769208952.143618,
+        "pro_ai_karma": 7
+      },
+      "blackcatfound": {
+        "last_scanned": 1769209431.218236,
+        "pro_ai_karma": -4
+      },
+      "Gullible-Crew-2997": {
+        "last_scanned": 1769210061.973691,
+        "pro_ai_karma": 28
+      },
+      "ToWelie89": {
+        "last_scanned": 1769210849.501963,
+        "pro_ai_karma": 1
+      },
+      "cellenium125": {
+        "last_scanned": 1769211480.226994,
+        "pro_ai_karma": 7
+      },
+      "Suitable_Heat1712": {
+        "last_scanned": 1769211999.860611,
+        "pro_ai_karma": 1
+      },
+      "Standard_Guitar": {
+        "last_scanned": 1769212408.364909,
+        "pro_ai_karma": 6
+      },
+      "Beneficial_Worry8263": {
+        "last_scanned": 1769212821.036213,
+        "pro_ai_karma": 1
+      },
+      "CarrierAreArrived": {
+        "last_scanned": 1769215226.902913,
+        "pro_ai_karma": 95
+      },
+      "HappyBlowLucky": {
+        "last_scanned": 1769216898.157488,
+        "pro_ai_karma": 0
       }
     },
     "scan_queue": [
-      "chipperm80",
-      "notabananaperson1",
-      "why_does_life_exist",
-      "Short-Cow-4722",
-      "Ok_Elderberry_6727",
-      "bhariLund",
-      "Outside-Ad9410",
-      "artemisgarden",
-      "Singularity-42",
-      "Herodont5915",
-      "bigsmokaaaa",
-      "Comfortable_Doubt649",
-      "Disastrous-Art-9041",
-      "addition",
-      "raksatya",
-      "bayernboer",
-      "sausage4mash",
-      "PewPewDiie",
-      "LopsidedSolution",
-      "OkPride6601",
-      "Dave_the_lighting_gu",
-      "AdorableBackground83",
-      "Amatheiaisnoexcuse",
-      "Recover_Infinite",
-      "TraditionalHome8852",
-      "Yokoko44",
-      "Acrobatic-Layer2993",
-      "peakedtooearly",
-      "Evening-Check-1656",
-      "dracollavenore",
-      "kord2003",
-      "Ok_Mission7092",
-      "IllustriousTea_",
-      "IntrepidTieKnot",
-      "Gargle-Loaf-Spunk",
-      "MysteriousBill1986",
-      "azimm29",
-      "RobleyTheron",
-      "sequoia-3",
-      "Beneficial_Aside_518",
-      "Facts_pls",
-      "nazgand",
-      "gianfrugo",
-      "Tubfmagier9",
-      "TemporalBias",
-      "strange_username58",
-      "jonydevidson",
-      "MuchNeighborhood2453",
-      "soliloquyinthevoid",
-      "_hisoka_freecs_",
-      "PaleLaw1745",
-      "SwimmingTall5092",
-      "Crypto_Force_X",
-      "blazedjake",
-      "ForgetPreviousPrompt",
-      "No-Isopod3884",
-      "Choice-Sympathy8235",
-      "endofsight",
-      "Your_mortal_enemy",
-      "sschepis",
-      "hau5keeping",
-      "Revolutionary_Buddha",
-      "Karegohan_and_Kameha",
-      "JustBrowsinAndVibin",
-      "Human-Job2104",
-      "Mindrust",
-      "Suspicious-Raisin824",
-      "ScorpionFromHell",
-      "budulai89",
-      "Equivalent-Ice-7274",
-      "Haunting_Comparison5",
-      "space_lasers",
-      "LiquidOracle",
-      "marekrei",
-      "RevoDS",
-      "jazir555",
-      "nel-E-nel",
-      "throwaway131251",
-      "wwants",
-      "Zephyr4813",
-      "jdyeti",
-      "Ifnerite",
-      "iliketurtlz",
-      "PlusWorldliness7",
-      "HurtingForPowder",
-      "Different-Incident64",
-      "Saerain",
-      "W0keBl0ke",
-      "able111",
-      "Stingray2040",
-      "13-14_Mustang",
-      "leveragedtothetits_",
-      "NerdyWeightLifter",
-      "Ok-Hat32015"
+      "Tosslebugmy",
+      "broose_the_moose",
+      "saltedhashneggs",
+      "Hellohibbs",
+      "AlexGaming1111",
+      "Oglark",
+      "work_work-work",
+      "Raccoon_Expert_69",
+      "Unusual-Chance-4608",
+      "KJPicard24",
+      "Winter_Ad6187",
+      "logic_prevails",
+      "DiverVisible3940",
+      "1_H4t3_R3dd1t",
+      "Imthewienerdog",
+      "Excludos",
+      "Past_Sky_4997",
+      "Fluffy_Tumbleweed_70",
+      "FoolishProphet_2336",
+      "complainorexplain",
+      "tofu98",
+      "Gammazeta430z",
+      "blahyaddayadda24",
+      "ChiefBullshitOfficer",
+      "peterjohnvernon936",
+      "gk98s",
+      "Exarch-of-Sechrima",
+      "Levi_Tf2",
+      "Agile_Tomorrow2038",
+      "Friendlyvoices",
+      "Upstairs-Hedgehog575",
+      "witcherd",
+      "Straight_Fish_704",
+      "Thisbutbetter",
+      "freylaverse",
+      "Nightcomer",
+      "Rare-Peak2697",
+      "AtmosphereVirtual254",
+      "Complex_Signal2842",
+      "notthatcreative777",
+      "ViolentSpring",
+      "Warkeeping",
+      "rustvscpp",
+      "SWATSgradyBABY",
+      "Fit_Employment_2944",
+      "CircleClown",
+      "tilted0ne",
+      "redpoetsociety",
+      "viavxy",
+      "markvii_dev",
+      "No_Opening_2425",
+      "ThomasToIndia",
+      "eivetsllufrednow",
+      "MARSHALCOGBURN999",
+      "Internal_Hour285",
+      "IDR456",
+      "Reasonable_Carry9191",
+      "code-garden",
+      "SonOfMetrum",
+      "Rylet_",
+      "ponieslovekittens",
+      "CautiousToaster",
+      "Impossible_Way7017",
+      "obas",
+      "dottybotty",
+      "stopthecope",
+      "Professional_Layer63",
+      "raishak",
+      "Omnivion",
+      "ColdSoviet115",
+      "LastAstronaut8872",
+      "GCC_GicaCamelCase",
+      "APossiblePossibility",
+      "Repulsive_Page_4780",
+      "BelgianDudeInDenmark",
+      "Mbando",
+      "TrickyChildhood2917",
+      "therinwhitten",
+      "Aggressive-Math-9882",
+      "77017792783776475577",
+      "workswithidiots",
+      "reddituser9191v",
+      "dwittherford69",
+      "EfficiencySignal6712",
+      "SilenR",
+      "Stevefrench4789",
+      "filterdecay",
+      "montdawgg",
+      "AtrociousMeandering",
+      "Crafty_Long_2451",
+      "Outli3rZ",
+      "Leverage_Trading",
+      "rollk1",
+      "itos",
+      "tr14l",
+      "Slam_Bingo",
+      "Financial-Bank2756",
+      "trailofsevens",
+      "Serialbedshitter2322",
+      "mixmastamikal",
+      "Longjumping-Ad-6727",
+      "coverednmud",
+      "Straight_Quantity209",
+      "fleggn",
+      "CakeSeaker",
+      "wntersnw",
+      "Dry-Draft7033",
+      "MurkyCress521",
+      "Evening_Meringue8414",
+      "kenspencerbrown",
+      "zetstar",
+      "livando1",
+      "turribledood",
+      "Jazz8680",
+      "MonkeyWithIt",
+      "a_seventh_knot",
+      "Playful-Artichoke-67",
+      "Low-Cantaloupe-8446",
+      "nerudition",
+      "ArchdruidHalsin",
+      "Spiritual-Rub7461",
+      "EveningNo8643",
+      "FrumpyFrodo",
+      "Theneler",
+      "dupontping",
+      "Impossible-Clock-576",
+      "SundayAMFN",
+      "LuckAccomplished2655",
+      "Wrong-Bumblebee3108",
+      "HelpProfessional8083",
+      "Chogo82",
+      "Which-Travel-1426",
+      "Admits-Dagger",
+      "Unfair_Golf2363",
+      "Coachsidekick",
+      "regulas_liberalus",
+      "dogtagkz",
+      "Kilharae",
+      "Saintmusicloves",
+      "ku2000",
+      "ItsSadTimes",
+      "NJdestroyed",
+      "WonkRx",
+      "DenseComparison5653",
+      "Tribalbob",
+      "Cryogenicality",
+      "OkFish1996",
+      "IanCoulter",
+      "Mashed_Potato_007",
+      "encony",
+      "accelerate-ModTeam",
+      "National-Mushroom733",
+      "Tystros",
+      "Crepuscular_Tex",
+      "BBQcasino",
+      "Adorable-Thing2551",
+      "SLAMMERisONLINE",
+      "Colsim",
+      "Lumpy-situation365",
+      "Puzzleheaded_Fold466",
+      "senselesssht",
+      "gokickrocks-",
+      "Dem0lari",
+      "DukeRedWulf",
+      "The_Johan",
+      "hardsoftware",
+      "ParkingInflator",
+      "Jolly-Ground-3722",
+      "1kn0wn0thing",
+      "Decaf_GT",
+      "ZenDragon",
+      "gast20",
+      "EmperorMagpie",
+      "VelvetKnife25",
+      "acethinjo",
+      "Truth-Seeker916",
+      "immortalalchemist",
+      "NegativeSemicolon",
+      "ThirdEyeAtlas",
+      "gretino",
+      "Routine_Complaint_79",
+      "So_many_things_wrong",
+      "Ndgo2",
+      "youngbull",
+      "thomasahle",
+      "JeaniousSpelur",
+      "infinitefailandlearn",
+      "FailureToReason",
+      "M0therN4ture",
+      "KitKatBarMan",
+      "oneblackfly",
+      "HumbleHat9882",
+      "MistakeNotMyMode",
+      "Matt_Murphy_",
+      "nsdjoe",
+      "Major_Shlongage",
+      "Jan0y_Cresva",
+      "RealisticPrimary8",
+      "Warshrimp",
+      "MeenzerWegwerf",
+      "mohyo324",
+      "Valisystemx",
+      "psysharp",
+      "DrinkCubaLibre",
+      "_lonegamedev",
+      "toomucheyeliner",
+      "Fryndlz",
+      "MarkMatson6",
+      "Kind_Tone3638",
+      "Aggressive_Toucan",
+      "pailee",
+      "mosc47",
+      "fmai",
+      "PresenceThick",
+      "vibe0009",
+      "davidlikesguitars",
+      "Zealousideal_Cup_154",
+      "johntwoods",
+      "VancityGaming",
+      "falafelsatchel",
+      "jklightnup",
+      "CantCSharp",
+      "Outside_Ice3252",
+      "PerfectReflection155",
+      "vibefelix_",
+      "SubparPilot",
+      "simmsbtm",
+      "ExtraordinaryAnimal",
+      "torval9834",
+      "Kitchen-Research-422",
+      "AcceptableSign9124",
+      "kblazewicz",
+      "Roubbes",
+      "DirtyWetNoises",
+      "Intelligent-Wing3948",
+      "Hexaflex",
+      "Furry-Keyboard",
+      "JayWelsh",
+      "Ancient_Complex",
+      "Substantial-Sky-8556",
+      "melvladimir",
+      "jerrygreenest1",
+      "RJ_MacreadysBeard",
+      "Fish-Inside",
+      "PianistWinter8293",
+      "EcstaticBandicoot537",
+      "Wild-Individual6876",
+      "WrongdoerIll5187",
+      "duskygrouper",
+      "Seven32N",
+      "MonsieurMetaverse",
+      "UnderstandingOwn4448",
+      "ILikeCutePuppies",
+      "RabidSkwerl",
+      "StudySpecial",
+      "Nodistractzens",
+      "House13Games",
+      "Magister_Achoris",
+      "Odd_Ordinary_7722",
+      "SidneySmut",
+      "EnvironmentTough3864",
+      "Respaced",
+      "vthings",
+      "Designer-Strategy376",
+      "Smooth-Pop6522",
+      "Tronux",
+      "TheJokerRSA",
+      "Ohigetjokes",
+      "Ok_Manner8697",
+      "Safe_Addition_9171",
+      "Jessica_15003",
+      "elissaxy",
+      "BrewedAndBalanced",
+      "yunglegendd",
+      "gizeon4",
+      "Prize_Response6300",
+      "Jumpy-Currency8578",
+      "chapster303",
+      "Main-Company-5946",
+      "DoubleNothing",
+      "TwoUp22",
+      "Thin_Owl_1528",
+      "Penislover3000",
+      "Dr-Kror",
+      "Own-Gas1871",
+      "Defiant-Lettuce-9156",
+      "phugar",
+      "TearsForSpheres",
+      "SlaughterWare",
+      "jybulson",
+      "IncidentCalm5170",
+      "Iridium486",
+      "kevinmise",
+      "Party_Banana_52",
+      "Neat_Finance1774",
+      "Tartuffiere",
+      "mdarrenp",
+      "2hurd",
+      "schubeg",
+      "isthisthepolice",
+      "HeracliusAugutus",
+      "ValKyKaivbul",
+      "Osi32",
+      "agonypants",
+      "Willis_3401_3401",
+      "Heuristics",
+      "kingdomstrategies",
+      "Time_Change4156",
+      "easeypeaseyweasey",
+      "AGI-44",
+      "Beautiful_Art7828",
+      "Themash360",
+      "Seth-73ma",
+      "michaelmb62",
+      "ingframin",
+      "Ill-Bison-3941",
+      "UnUsernameRandom",
+      "JustCheckReadmeFFS",
+      "OneRobotBoii",
+      "TheSquarePotatoMan",
+      "gorliggs",
+      "SedesBakelitowy",
+      "DeonHolo",
+      "knac8",
+      "DegTrader",
+      "completelypositive",
+      "RocAuPap",
+      "No-Island-6126",
+      "SecretOfTheOdds",
+      "kalabaleek",
+      "EducationalAd2863",
+      "Timetraveller4k",
+      "N0-Chill",
+      "bubblesort33",
+      "Middle_Estate8505",
+      "ptear",
+      "Wise-Emu-225",
+      "TinyCuteGorilla",
+      "DriverX_33",
+      "Vinnypaperhands",
+      "constarx",
+      "No_Poem_7024",
+      "NikoKun",
+      "buttlickin",
+      "VirtualJamesHarrison",
+      "IronAttom",
+      "automaticmongersciss",
+      "DotHealthy8125",
+      "Kind_Fisherman3060",
+      "JaZoray",
+      "nit_electron_girl",
+      "SomeSortOfWiseGuy",
+      "CommunismDoesntWork",
+      "LaChoffe",
+      "Far_Marionberry1717",
+      "gxgxe",
+      "khorapho",
+      "SpritaniumRELOADED",
+      "Remarkable-Yak2584",
+      "dobkeratops",
+      "ImpossibleEdge4961",
+      "jchimney",
+      "zar99raz",
+      "KnubblMonster",
+      "DaleRobinson",
+      "Ultra_HNWI",
+      "CriticalPolitical",
+      "TyrKiyote",
+      "Fit-World-3885",
+      "Sancho_the_intronaut",
+      "EgeTheAlmighty",
+      "GenOS2312",
+      "apegoat",
+      "jk_pens",
+      "Additional-Date7682",
+      "Past_Activity1581",
+      "Striking-Kale-8429",
+      "Galilleon",
+      "Mountain_Cream3921",
+      "UBum",
+      "Astronaut100",
+      "SirVoltington",
+      "-Davster-",
+      "onomatopoeia8",
+      "Humble-Bear",
+      "TravelFn",
+      "Teh_Blue_Team",
+      "BOSS_OF_THE_INTERNET",
+      "ForgetTheRuralJuror",
+      "Own_Satisfaction2736",
+      "ShepardRTC",
+      "Oktokolo",
+      "Loud_Entertainer_598",
+      "Economy-Fee5830",
+      "RUIN_NATION_",
+      "Training-Database272",
+      "rakuu",
+      "Crafty-Marsupial2156",
+      "Rotcod",
+      "jimmystar889",
+      "ImmuneHack",
+      "MotherEbb9117",
+      "fgreen68",
+      "AdmirableJudgment784",
+      "px403",
+      "kingjdin",
+      "Moravec_Paradox",
+      "Powerful-Prompt4123",
+      "deavidsedice",
+      "VirtueSignalLost",
+      "jkd43",
+      "Savings-Divide-7877",
+      "BelialSirchade",
+      "MinimusMaximizer",
+      "AwayMatter",
+      "ihsotas",
+      "Slight-Fudge",
+      "Legaliznuclearbombs",
+      "zimmer550king",
+      "pab_guy",
+      "9oshua",
+      "keyboardmonkewith",
+      "cs862",
+      "MrGinger128",
+      "cool-beans-yeah",
+      "fennforrestssearch",
+      "Individual_Double_75",
+      "Spawndli",
+      "Jesusspanksmydog",
+      "PneumaEmergent",
+      "Zanano",
+      "ceramicatan",
+      "Longjumping_Area_944",
+      "Kitchen-Year-8434",
+      "ManicManz13",
+      "voronaam",
+      "gradual_alzheimers",
+      "Zealousideal_Till250",
+      "-illusoryMechanist",
+      "Timely_Tea6821",
+      "Rollertoaster7",
+      "AxeAndRod",
+      "GeorgiaWitness1",
+      "freqCake",
+      "NoGarlic2387",
+      "Any-Iron9552",
+      "hihowubduin",
+      "Technical-Might9868",
+      "io-x",
+      "GlowingOrganism",
+      "Informal-Highway-815",
+      "Low-Associate2521",
+      "MrFilkor",
+      "listenhere111",
+      "Boudria",
+      "ColdToast",
+      "_Divine_Plague_",
+      "Belium",
+      "basementreality",
+      "retsof81",
+      "DesignerTruth9054",
+      "SquashSubstantial152",
+      "Southern_Orange3744",
+      "Professional_Road397",
+      "Shap3rz",
+      "Remarkable-One100",
+      "axiomatix",
+      "OsakaWilson",
+      "scotyb",
+      "Significant-Bat-9782",
+      "SpaceNinjaDino",
+      "MeasurementNo6259",
+      "Vehks",
+      "Traditional-Bar4404",
+      "New_Drama3065",
+      "dyndhu",
+      "No_Bag_6017",
+      "caseyr001",
+      "FitSatisfaction1291",
+      "SeaworthinessCool689",
+      "nul9090",
+      "Thetaarray",
+      "Rent_South",
+      "trentsiggy",
+      "Maleficent-Weight316",
+      "gibon007",
+      "Zaic",
+      "Correctsmorons69",
+      "herosavestheday",
+      "Euphoric_Tutor_5054",
+      "FutureNostalgia69",
+      "BitOne2707",
+      "CheckMateFluff",
+      "ObfuscatedSource",
+      "maverick_labs_ca",
+      "LionOfNaples",
+      "ithkuil",
+      "Right-Hall-6451",
+      "TheAuthorBTLG_"
     ]
   }
 }
