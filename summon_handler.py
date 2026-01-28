@@ -155,6 +155,33 @@ def check_for_summons(
     try:
         comments = list(subreddit.comments(limit=100))
         
+        # Batch fetch parent authors to avoid N+1 API calls
+        parent_author_cache = {}
+        # Use passed reddit instance or try to get it from subreddit object
+        reddit_instance = reddit if reddit else getattr(subreddit, "_reddit", None)
+
+        if reddit_instance:
+            parent_ids_to_fetch = set()
+            for comment in comments:
+                # Pre-filter to reduce fetch count
+                if comment.id in summon_responses: continue
+                if is_too_old(comment.created_utc): continue
+                if comment.author and comment.author.name == bot_username: continue
+
+                # Check parents for replies
+                if hasattr(comment, 'parent_id'):
+                    parent_ids_to_fetch.add(comment.parent_id)
+
+            if parent_ids_to_fetch:
+                try:
+                    # Fetch all parents in one go
+                    parents = reddit_instance.info(fullnames=list(parent_ids_to_fetch))
+                    for parent in parents:
+                        if hasattr(parent, 'author') and parent.author:
+                            parent_author_cache[parent.name] = parent.author.name
+                except Exception as e:
+                    print(f"    ⚠️ Could not batch fetch parents: {e}")
+
         for comment in comments:
             # Check limits
             if summons_handled >= MAX_REPLIES_PER_RUN:
@@ -175,9 +202,17 @@ def check_for_summons(
             
             # Skip if this is a reply to our comment (reply_handler will handle those)
             try:
-                parent = comment.parent()
-                if hasattr(parent, 'author') and parent.author and parent.author.name == bot_username:
-                    continue
+                # Optimized check using cache or fast path
+                parent_id = getattr(comment, 'parent_id', None)
+
+                if parent_id and parent_id in parent_author_cache:
+                    if parent_author_cache[parent_id] == bot_username:
+                        continue
+                # Fallback to slow N+1 method if not cached (e.g. reddit instance unavailable or fetch failed)
+                elif not parent_author_cache:
+                    parent = comment.parent()
+                    if hasattr(parent, 'author') and parent.author and parent.author.name == bot_username:
+                        continue
             except:
                 pass  # If we can't get parent, proceed normally
             
