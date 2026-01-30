@@ -20,6 +20,9 @@ import google.generativeai as genai
 # Import configuration from centralized config
 from config import (
     SUBREDDIT,
+    POST_TLDR_ENABLED,
+    COMMENT_TLDR_ENABLED,
+    COMMENT_SUMMARY_ENABLED,
     POST_WORD_THRESHOLD,
     COMMENT_WORD_THRESHOLD,
     MAX_TLDR_PER_RUN,
@@ -426,7 +429,7 @@ def main():
     posts_to_check = list(subreddit.new(limit=limit))
     
     # Phase 1: Generate TLDRs for long posts
-    if can_proceed:
+    if can_proceed and POST_TLDR_ENABLED:
         for submission in posts_to_check:
             # Skip if too old (older than MAX_AGE_HOURS)
             if is_too_old(submission.created_utc):
@@ -481,7 +484,7 @@ def main():
     # Phase 2: Check for comment summaries (if we haven't hit daily limit)
     can_proceed, state = check_daily_limit(state)
     
-    if can_proceed:
+    if can_proceed and COMMENT_SUMMARY_ENABLED:
         print(f"\n💬 Checking posts for comment summaries...")
         
         for submission in posts_to_check:
@@ -568,7 +571,7 @@ def main():
     # Phase 3: Generate TLDRs for long individual comments
     can_proceed, state = check_daily_limit(state)
     
-    if can_proceed:
+    if can_proceed and COMMENT_TLDR_ENABLED:
         print(f"\n📝 Checking for long comments to TLDR...")
         
         for submission in posts_to_check:

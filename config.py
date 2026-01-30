@@ -6,6 +6,10 @@ Centralized configuration for Reddit Bot (r/accelerate).
 SUBREDDIT = "accelerate"
 
 # TLDR Settings
+POST_TLDR_ENABLED = True      # Summarize long posts
+COMMENT_TLDR_ENABLED = False  # Summarize long individual comments
+COMMENT_SUMMARY_ENABLED = False # Summarize conversation milestones (20/50/100 comments)
+
 POST_WORD_THRESHOLD = 270  # Minimum words to trigger TLDR for posts
 COMMENT_WORD_THRESHOLD = 400  # Minimum words to trigger TLDR for comments
 MAX_TLDR_PER_RUN = 1  # Only 1 TLDR per run (~3 min between TLDRs)
